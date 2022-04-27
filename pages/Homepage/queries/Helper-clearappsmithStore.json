@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "()=>{\n\t\tfor (let key in appsmith.store) {\n\t\tstoreValue(key,'') ;  \t\t\t\n\t\t\t if (appsmith.store.hasOwnProperty(key)) {\n        const value = appsmith.store[key];\n\t\t\t  if(key==\"vayApplicantName\"){\n\t\t\t\t\tstoreValue(key,'Test1402')\n\t\t\t\t}\n      //  showAlert(key, value);\n    }\n\t\t\tstoreValue('viewOnly','false')\n\t\t\tnavigateTo('New Application')\n\t}\n\t}",
+      "body": "()=>{\n\t\t/*for (let key in appsmith.store) {\n\t\tstoreValue(key,'') ;  \t\t\t\n\t\t\t if (appsmith.store.hasOwnProperty(key)) {\n        const value = appsmith.store[key];\n\t\t\t  if(key==\"vayApplicantName\"){\n\t\t\t\t\tstoreValue(key,'Test1402')\n\t\t\t\t}\n      //  showAlert(key, value);\n    }*/\n\t\t\tstoreValue('viewOnly','false')\n\t\t\tnavigateTo('New Application')\n\t\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "()=>{\n\t\tfor (let key in appsmith.store) {\n\t\tstoreValue(key,'') ;  \t\t\t\n\t\t\t if (appsmith.store.hasOwnProperty(key)) {\n        const value = appsmith.store[key];\n\t\t\t  if(key==\"vayApplicantName\"){\n\t\t\t\t\tstoreValue(key,'Test1402')\n\t\t\t\t}\n      //  showAlert(key, value);\n    }\n\t\t\tstoreValue('viewOnly','false')\n\t\t\tnavigateTo('New Application')\n\t}\n\t}"
+      "()=>{\n\t\t/*for (let key in appsmith.store) {\n\t\tstoreValue(key,'') ;  \t\t\t\n\t\t\t if (appsmith.store.hasOwnProperty(key)) {\n        const value = appsmith.store[key];\n\t\t\t  if(key==\"vayApplicantName\"){\n\t\t\t\t\tstoreValue(key,'Test1402')\n\t\t\t\t}\n      //  showAlert(key, value);\n    }*/\n\t\t\tstoreValue('viewOnly','false')\n\t\t\tnavigateTo('New Application')\n\t\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
