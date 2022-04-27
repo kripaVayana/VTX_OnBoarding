@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "corpCustomerCreateAndUpdate",
+    "pageId": "India Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tonClick: async () => {\n\t\t\tif (vayCrSelectedComAddr.text == \"\"){\n\t\t\t\tshowAlert('We need your communication Address')\n\t\t}\n\t\telse {\n\t\t\tif(Table1.tableData.length >0)\n\t\t\t\t{\n\t\t\t\t\t\t\t\t\tupdateCustomerDetailAddCommAdd.run() \n\t\t\t\t\t\t\t\t\tshowAlert('Customer Details Updated')\t\t\t\t\t\n\t\t\t\t}\n\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tcreateCustomerAddressDetails.run() \n\t\t\t\t\tshowAlert('Customer Details Created');\n\t\t\t\t}\n\t\t\tnavigateTo('Currencies',{\"fromPage\":\"India Corporate Address\"});\n\t\t}\n\t},\n\tdummy:() => {\n\t\t{{Number()}}\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "India Corporate Address_corpCustomerCreateAndUpdate",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_61f9182b44c7a82bb8fac125"
+}

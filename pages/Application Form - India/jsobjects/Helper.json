@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "Application Form - India",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tcreateUpdateCustomer:  () => {\n\t\tstoreValue(\"vayApplicationGSTN\", vayGSTNInput.text);\n\t\tif(vayGSTNRespConstitution.text == \"LLP\" || vayGSTNRespConstitution.text == \"PLC\" || vayGSTNRespConstitution.text == \"LLC\" ){\n\t\t\t\t\tconst response =  createCustomer.run(); \n\t\t\t\t\t if(!!response){\n\t\t\t\t\t\t\t showAlert('Customer application record created')\n\t\t   \t\t }else{\n\t\t \t\t\t\t\t showAlert('Customer application record creation failed...Contact Admin')\n\t\t\t\t\t\n\t\t\t\t\t }\t\t\n\t\t\t\t\tstoreValue(\"vayApplicationIndConstitutionType\", vayGSTNRespConstitution.text)\n\n\t\t\tshowAlert(appsmith.store.vayApplicationIndConstitutionType);\n\t\t\treturn navigateTo('India - Corporate',{});\n\t\t}else{\n\t \t\t\t\tconst response =  createCustomer.run();\n\t \t\t\t\tif(!!response){\n\t\t \t\t\t\t\tshowAlert('Customer application record created')\n\t \t\t\t\t}else{\n\t\t  \t\t\t\tshowAlert('Customer application record creation failed...Contact Admin')\n\t \t\t\t\t}\t\t\t\t \n\t\t\t\t\tstoreValue(\"vayApplicationIndConstitutionType\", vayGSTNRespConstitution.text)\nshowAlert(appsmith.store.vayApplicationIndConstitutionType);\n\t \t\t\t\treturn navigateTo('India - Non Corporate',{});\n\t\t}\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "Application Form - India_Helper",
+  "deleted": false,
+  "gitSyncId": "622b3cb95634651c919ec65d_622b654b5634651c919ec91d"
+}

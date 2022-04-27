@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "India - Non Corporate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tonSaveClick: async () => {\n\t\tstoreValue('vayNcAddrr1','NcRegAddrr Line 1');\n\t\tstoreValue('vayNcAddrr2','NcRegAddrr Line 2');\n\t\tstoreValue('vayNcCity','NcRegAddrr City');\n\t\tstoreValue('vayNcDistrict','NcRegAddrr District');\n\t\tstoreValue('vayNcState','NcRegAddrr State');\n\t\tstoreValue('vayNcCountry','NcRegAddrr Country');\n\t\tstoreValue('vayNcPinCode','NcRegAddrr Pincode');\t\n\t\t\n\t\tstoreValue('vayNcRegAddrr1','NcRegAddrr Line 1')\n\t\tstoreValue('vayNcRegAddrr2','NcRegAddrr Line 2')\n\t\tstoreValue('vayNcRegCity','NcRegAddrr City')\n\t\tstoreValue('vayNcRegDistrict'\t,'NcRegAddrr District')\n\t\tstoreValue('vayNcRegState','NcRegAddrr State')\n\t\tstoreValue('vayNcRegCountry','NcRegAddrr Country')\n\t\tstoreValue('vayNcRegPinCode','NcRegAddrr Pincode')\n\n\t\tawait updateCustomerIndiaNonCorpNext.run()\n\t\tnavigateTo('India Non Corporate Address', {})\n\t},\n\n}",
+    "variables": []
+  },
+  "id": "India - Non Corporate_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_625689f9d6bb232d41860d82"
+}

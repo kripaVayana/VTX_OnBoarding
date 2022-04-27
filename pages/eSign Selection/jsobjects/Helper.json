@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "eSign Selection",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t  onCustomerSentForVerifyAuth: async () => {\n\t\t\n\t\tif(appsmith.URL.queryParams.npg == \"formSuccess\"){\n\t\t\tif(appsmith.store.vayApplicantRole!=\"\")\n\t\t\t{\n\t\t\t}\n\t\t\t//await Helper.clearappsmithStore();\n\t\t\tnavigateTo('Application Submission Success', {})\n\t\t}\n\t},\n\tupdateCustomerStatus: () => {\n\t\tconst response =  updateCustomerStatusAsFormSign.run(); \n\t  if(!!response){\n\t\t \tshowAlert('Customer  application Status updated :: In Verification');\n\t\t\t\n\t   }else{\n\t\t  showAlert('Customer application record updation failed...Contact Admin')\n\t \t}\t\n\t},\n\tcreateeSignAssineeList: async ()=>{\n\t\t try {\n\t\t\t \t\tconst aSigneeOptions = []\n\t\t\t\t\tlet finalOptions\n\t\t\t\t\tlet signeeString\n\t\t\t\t\tlet response = await getKeyPersonForeSign.run();\n\t\t\t   \tconsole.log('response', response)\n\t\t\t   \tif(!!response && response[0].authsigncount >= 1) {\n\t\t\t\t\t\t  const iOptIndex = response[0].authsigncount\n\t\t\t\t\t\t\tconsole.log('iOptIndex::',iOptIndex);\n    \t\t\t\t\tfor (let iOption=1;iOption<=iOptIndex;iOption++){\n\t\t\t\t\t\t\t\tconst signeeString = {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tlabel: iOption + \" Signee\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tvalue: iOption + \" Signee\"\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tconsole.log('signeeString - ',signeeString);\n\t\t\t\t\t\t\t\taSigneeOptions.push(signeeString);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\tstoreValue('aSigneeOptions',aSigneeOptions);\n\t\t\t\t\t\tconsole.log('aSigneeOptions - ',aSigneeOptions);\n\t\t\t\t\t\tconsole.log('from Store  - ',appsmith.store.aSigneeOptions);\n\t\t\t\t\t\t return appsmith.store.aSigneeOptions;\n\t\t\t\t\t}else{\n\t\t\t\t\t\t\n\t\t\t\t\t}\t\n\t\t\t  return finalOptions;\n\t\t} catch(e) {\n\t\t\treturn false;\n\t\t}\n\t},\n\tclearappsmithStore: ()=>{\n\t\tfor (let key in appsmith.store) {\n    if (appsmith.store.hasOwnProperty(key)) {\n        const value = appsmith.store[key];\n\t\t\t  if(key==\"vayApplicantName\"){\n\t\t\t\t\tstoreValue(key,'Test1402')\n\t\t\t\t}\n        console.log(key, value);\n    }\n}\n\t},\n\tdummy: ()=>{\n\t\treturn appsmith.store.vayApplicantRole.substring(0,3).toUpperCase()+appsmith.store.customerIsIndForeign+[...Array(8)].map(() => Math.floor(Math.random() * 17).toString(17)).join('');\n\t\t//return appsmith.store.vayApplicantRole.substring(0,3).toUpperCase()\n\t\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "eSign Selection_Helper",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_620caef35ccb2f678fcab85c"
+}

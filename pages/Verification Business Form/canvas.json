@@ -1,0 +1,2937 @@
+{
+  "unpublishedPage": {
+    "name": "Verification Business Form",
+    "slug": "verification-business-form",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1160,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 0,
+              "bottomRow": 114,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "80giy2nrgh",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 1130,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "39ymvxqhi2",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Image1",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb96.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "p6fdp3nhxk",
+                      "image": "https://sandbox.vtx.vayana.com/ITFS_UAT_APP/images/logo.png",
+                      "rightColumn": 13,
+                      "objectFit": "contain",
+                      "widgetId": "qi77olgc5v",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "80giy2nrgh",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "Form1",
+                      "backgroundColor": "white",
+                      "rightColumn": 64,
+                      "isCanvas": true,
+                      "displayName": "Form",
+                      "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                      "widgetId": "euw8e0zbcc",
+                      "topRow": 7,
+                      "bottomRow": 111,
+                      "parentRowSpace": 10,
+                      "isVisible": true,
+                      "type": "FORM_WIDGET",
+                      "hideCard": false,
+                      "parentId": "80giy2nrgh",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "leftColumn": 1,
+                      "children": [
+                        {
+                          "widgetName": "Canvas2",
+                          "rightColumn": 330,
+                          "detachFromLayout": true,
+                          "displayName": "Canvas",
+                          "widgetId": "fr9ojudoj6",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 1040,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "version": 1,
+                          "hideCard": true,
+                          "parentId": "euw8e0zbcc",
+                          "minHeight": 400,
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text1",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 1.5,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Application Form Verification",
+                              "key": "zkgmyj0mpx",
+                              "rightColumn": 25.5,
+                              "textAlign": "LEFT",
+                              "widgetId": "qtzivexi7w",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#264283",
+                              "version": 1,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "HEADING1"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "widgetName": "FormButton1",
+                              "onClick": "{{navigateTo('Verification Individual Summar', {})}}",
+                              "buttonColor": "#264283",
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 98,
+                              "bottomRow": 102,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 56,
+                              "dynamicBindingPathList": [],
+                              "text": "Save & Next",
+                              "key": "2e5z2pfqqi",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "zvfnxjm0i1",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "widgetName": "FormButton2",
+                              "buttonColor": "#264283",
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 98,
+                              "bottomRow": 102,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 50,
+                              "dynamicBindingPathList": [],
+                              "text": "Reset",
+                              "key": "2e5z2pfqqi",
+                              "rightColumn": 56,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "n8frlimqpv",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "widgetName": "Table1",
+                              "defaultPageSize": 0,
+                              "columnOrder": [
+                                "DocumentType",
+                                "DocumentName",
+                                "FileName",
+                                "Download",
+                                "ApiVarificaion",
+                                "path"
+                              ],
+                              "isVisibleDownload": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "primaryColumns.Download.onClick"
+                                }
+                              ],
+                              "displayName": "Table",
+                              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+                              "topRow": 66,
+                              "bottomRow": 94,
+                              "isSortable": true,
+                              "parentRowSpace": 10,
+                              "type": "TABLE_WIDGET",
+                              "defaultSelectedRow": "0",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "primaryColumns.Download.onClick"
+                                }
+                              ],
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "tableData"
+                                },
+                                {
+                                  "key": "primaryColumns.DocumentType.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.DocumentName.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.FileName.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Download.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.ApiVarificaion.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.path.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Download.buttonLabel"
+                                }
+                              ],
+                              "leftColumn": 50,
+                              "primaryColumns": {
+                                "DocumentType": {
+                                  "index": 0,
+                                  "width": 150,
+                                  "id": "DocumentType",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "DocumentType",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DocumentType))}}"
+                                },
+                                "DocumentName": {
+                                  "index": 1,
+                                  "width": 150,
+                                  "id": "DocumentName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "DocumentName",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DocumentName))}}"
+                                },
+                                "FileName": {
+                                  "index": 2,
+                                  "width": 150,
+                                  "id": "FileName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "FileName",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.FileName))}}"
+                                },
+                                "Download": {
+                                  "index": 3,
+                                  "width": 150,
+                                  "id": "Download",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "button",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "Download",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Download))}}",
+                                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Download'))}}",
+                                  "buttonColor": "#03b365",
+                                  "onClick": "{{VerificationJSObject.downloadFile(currentRow.FileName, currentRow.path)}}"
+                                },
+                                "ApiVarificaion": {
+                                  "index": 4,
+                                  "width": 150,
+                                  "id": "ApiVarificaion",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "ApiVarificaion",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.ApiVarificaion))}}"
+                                },
+                                "path": {
+                                  "index": 6,
+                                  "width": 150,
+                                  "id": "path",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "path",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.path))}}"
+                                }
+                              },
+                              "delimiter": ",",
+                              "key": "ouc9re3gtp",
+                              "derivedColumns": {},
+                              "rightColumn": 64,
+                              "textSize": "PARAGRAPH",
+                              "widgetId": "co9cpojlfd",
+                              "isVisibleFilters": true,
+                              "tableData": "{{VerificationJSObject.getTableData()}}",
+                              "isVisible": true,
+                              "label": "Data",
+                              "searchKey": "",
+                              "enableClientSideSearch": true,
+                              "version": 3,
+                              "totalRecordsCount": 0,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "horizontalAlignment": "LEFT",
+                              "isVisibleSearch": true,
+                              "isVisiblePagination": true,
+                              "verticalAlignment": "CENTER",
+                              "columnSizeMap": {
+                                "task": 245,
+                                "step": 62,
+                                "status": 75,
+                                "customColumn3": 222
+                              }
+                            },
+                            {
+                              "widgetName": "Tabs1",
+                              "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onTabSelected"
+                                }
+                              ],
+                              "displayName": "Tabs",
+                              "iconSVG": "/static/media/icon.74a6d653.svg",
+                              "topRow": 7,
+                              "bottomRow": 57,
+                              "parentRowSpace": 10,
+                              "type": "TABS_WIDGET",
+                              "hideCard": false,
+                              "shouldScrollContents": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "children": [
+                                {
+                                  "tabId": "tab1",
+                                  "widgetName": "Canvas3",
+                                  "displayName": "Canvas",
+                                  "topRow": 0,
+                                  "bottomRow": 430,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": true,
+                                  "hideCard": true,
+                                  "shouldScrollContents": false,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 0,
+                                  "dynamicBindingPathList": [],
+                                  "children": [
+                                    {
+                                      "widgetName": "Text25",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 6,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Business Name - {{SelectQuery.data[0].CUSTOMER_BUSINESS_NAME}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "i26ktehluv",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text28",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 6,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 23,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Constitution Type - {{SelectQuery.data[0].CUSTOMER_BUSINESS_CONST_TYPE}}\n",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 39,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "0dfwj6sug2",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text36Copy",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 6,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 47,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "If Others - {{SelectQuery.data[0].CUSTOMER_BUSINESS_CONST_TYPE_OTHERS}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 63,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "knr6b2tjkw",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text27",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 6,
+                                      "bottomRow": 10,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 23,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Business Registration Country -  {{SelectQuery.data[0].cbrc_countryname\n}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 39,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "rnv8du86er",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text26",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 6,
+                                      "bottomRow": 11,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Role Type - {{SelectQuery.data[0].sv_prs_TEXT}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "fvpyam5otc",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text29",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 15,
+                                      "bottomRow": 19,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "CONTACT PERSON",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "ti6eyykcut",
+                                      "isVisible": true,
+                                      "fontStyle": "BOLD",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH2"
+                                    },
+                                    {
+                                      "widgetName": "Text30",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 20,
+                                      "bottomRow": 24,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Name -  {{SelectQuery.data[0].CUSTOMER_APPLICANT_NAME\n}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "7rqeu75ozy",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text31",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 20,
+                                      "bottomRow": 24,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 23,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Email - {{SelectQuery.data[0].CUSTOMER_APPLICANT_EMAIL\n}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 39,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "ntwtpko2ki",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text32",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 19,
+                                      "bottomRow": 23,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 47,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Mobile - {{SelectQuery.data[0].CUSTOMER_APPLICANT_MOBILE}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 63,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "v5f2m55akf",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text33",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 26,
+                                      "bottomRow": 30,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "TAX REGISTRATION DETAILS",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "wljmydqgrj",
+                                      "isVisible": true,
+                                      "fontStyle": "BOLD",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH2"
+                                    },
+                                    {
+                                      "widgetName": "Text35",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 30,
+                                      "bottomRow": 34,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 23,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Tax Registration Body - {{SelectQuery.data[0].sv_trb_TEXT}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 41,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "so7u678nd9",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text36",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 29,
+                                      "bottomRow": 33,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 47,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "If Others - {{SelectQuery.data[0].CUSTOMER_BUSINESS_TAX_OTHERS}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 63,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "e4j3yghx9c",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text34",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 31,
+                                      "bottomRow": 35,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Tax Jurisdiction - {{SelectQuery.data[0].cbtj_countryname}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "irca3dx9bx",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text37",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 37,
+                                      "bottomRow": 41,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Tax Identification No - {{SelectQuery.data[0].CUSTOMER_BUSINESS_GSTN_DESC}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "v3lmso8m87",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text38",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 37,
+                                      "bottomRow": 41,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.75,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 23,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Tax Account No - {{SelectQuery.data[0].CUSTOMER_BUSINESS_TAX_ACCOUNT_NO}}",
+                                      "key": "pn3zgxkcym",
+                                      "rightColumn": 39,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "u5tq5lw90g",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "vlgbelsi7u",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    }
+                                  ],
+                                  "isDisabled": false,
+                                  "key": "h3bp9ttai9",
+                                  "tabName": "Application Info",
+                                  "rightColumn": 317.34375,
+                                  "detachFromLayout": true,
+                                  "widgetId": "vlgbelsi7u",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "hrepweboni",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false
+                                },
+                                {
+                                  "tabId": "tab2",
+                                  "widgetName": "Canvas4",
+                                  "displayName": "Canvas",
+                                  "topRow": 0,
+                                  "bottomRow": 450,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": true,
+                                  "hideCard": true,
+                                  "shouldScrollContents": false,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 0,
+                                  "dynamicBindingPathList": [],
+                                  "children": [
+                                    {
+                                      "widgetName": "vayFgnRegDate",
+                                      "dateFormat": "D MMMM, YYYY",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "defaultDate"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "DatePicker",
+                                      "iconSVG": "/static/media/icon.300e5ab8.svg",
+                                      "topRow": 13,
+                                      "bottomRow": 17,
+                                      "shortcuts": false,
+                                      "parentRowSpace": 10,
+                                      "type": "DATE_PICKER_WIDGET2",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 13,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultDate"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "uourd5pw8g",
+                                      "isRequired": false,
+                                      "rightColumn": 32,
+                                      "defaultDate": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_REG_DATE}}",
+                                      "widgetId": "cl9zdvqvxw",
+                                      "isVisible": true,
+                                      "datePickerType": "DATE_PICKER",
+                                      "label": "",
+                                      "version": 2,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "timePrecision": "None",
+                                      "firstDayOfWeek": "",
+                                      "closeOnSelection": false
+                                    },
+                                    {
+                                      "widgetName": "vayFgnCommDate",
+                                      "dateFormat": "D MMMM, YYYY",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "defaultDate"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "DatePicker",
+                                      "iconSVG": "/static/media/icon.300e5ab8.svg",
+                                      "topRow": 13,
+                                      "bottomRow": 17,
+                                      "shortcuts": false,
+                                      "parentRowSpace": 10,
+                                      "type": "DATE_PICKER_WIDGET2",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 12.7958984375,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 48,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultDate"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "r5390ljk35",
+                                      "isRequired": false,
+                                      "rightColumn": 62,
+                                      "defaultDate": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_COMM_DATE}}",
+                                      "widgetId": "ga9n4cd7gj",
+                                      "isVisible": true,
+                                      "datePickerType": "DATE_PICKER",
+                                      "label": "",
+                                      "version": 2,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "timePrecision": "None",
+                                      "firstDayOfWeek": 0,
+                                      "closeOnSelection": false
+                                    },
+                                    {
+                                      "widgetName": "vayFgnRegCountry",
+                                      "isFilterable": true,
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Select",
+                                      "iconSVG": "/static/media/icon.bd99caba.svg",
+                                      "labelText": "Incorporation Country",
+                                      "topRow": 25,
+                                      "bottomRow": 29,
+                                      "parentRowSpace": 10,
+                                      "type": "DROP_DOWN_WIDGET",
+                                      "serverSideFiltering": false,
+                                      "hideCard": false,
+                                      "defaultOptionValue": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_REG_COUNTRY}}",
+                                      "selectionType": "SINGLE_SELECT",
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "options"
+                                        },
+                                        {
+                                          "key": "defaultOptionValue"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "options": "{{QueryIncorporationCountry.data}}",
+                                      "placeholderText": "Select option",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "oo6zkzp4rj",
+                                      "isRequired": true,
+                                      "rightColumn": 32,
+                                      "widgetId": "hnrhkn7ck1",
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false
+                                    },
+                                    {
+                                      "widgetName": "vayFgnConstitution",
+                                      "isFilterable": false,
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Select",
+                                      "iconSVG": "/static/media/icon.bd99caba.svg",
+                                      "labelText": "Business Constitution/ Entity Type",
+                                      "topRow": 1,
+                                      "bottomRow": 5,
+                                      "parentRowSpace": 10,
+                                      "type": "DROP_DOWN_WIDGET",
+                                      "serverSideFiltering": false,
+                                      "hideCard": false,
+                                      "defaultOptionValue": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_CONST_TYPE}}",
+                                      "selectionType": "SINGLE_SELECT",
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "isRequired"
+                                        },
+                                        {
+                                          "key": "defaultOptionValue"
+                                        },
+                                        {
+                                          "key": "options"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "options": "{{QuerySelectBusinessConstEntity.data}}",
+                                      "placeholderText": "Select option",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "oo6zkzp4rj",
+                                      "isRequired": true,
+                                      "rightColumn": 32,
+                                      "widgetId": "s0tg72h851",
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false
+                                    },
+                                    {
+                                      "widgetName": "vayFgnConstitutionOthers",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isVisible"
+                                        },
+                                        {
+                                          "key": "isRequired"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 5,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "isVisible"
+                                        },
+                                        {
+                                          "key": "isRequired"
+                                        },
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "kpedijske0",
+                                      "isRequired": "{{vayFgnConstitution.selectedOptionValue == \"others\"}}",
+                                      "rightColumn": 62,
+                                      "widgetId": "ptsdo0wcxt",
+                                      "isVisible": "{{vayFgnConstitution.selectedOptionValue === \"others\"}}",
+                                      "label": "If Others",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_CONST_TYPE_OTHERS}}"
+                                    },
+                                    {
+                                      "widgetName": "vayFgnRegNo",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 7,
+                                      "bottomRow": 11,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "kpedijske0",
+                                      "isRequired": true,
+                                      "rightColumn": 32,
+                                      "widgetId": "e3epf3h3ay",
+                                      "isVisible": true,
+                                      "label": "Registration No",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_REG_NUMBER}}"
+                                    },
+                                    {
+                                      "widgetName": "vayFgnRegulatorName",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 7,
+                                      "bottomRow": 11,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "kpedijske0",
+                                      "isRequired": true,
+                                      "rightColumn": 62,
+                                      "widgetId": "4ek61b37i5",
+                                      "isVisible": true,
+                                      "label": "Registrar Name",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_REGISTRARNAME}}"
+                                    },
+                                    {
+                                      "widgetName": "Text2Copy",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 13,
+                                      "bottomRow": 17,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [],
+                                      "text": "Date of Incorporation",
+                                      "key": "psml017e5s",
+                                      "rightColumn": 13,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "fia53tjskz",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text3Copy",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 13,
+                                      "bottomRow": 17,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 12.7958984375,
+                                      "dynamicTriggerPathList": [],
+                                      "overflow": "NONE",
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [],
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Date of Commencement",
+                                      "key": "213q499a07",
+                                      "rightColumn": 48,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "umu9iixfj6",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "vayFgnRegPlace",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 19,
+                                      "bottomRow": 23,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "kpedijske0",
+                                      "isRequired": true,
+                                      "rightColumn": 32,
+                                      "widgetId": "9eqzbkql0u",
+                                      "isVisible": true,
+                                      "label": "Incorporation Place",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_REG_PLACE}}"
+                                    },
+                                    {
+                                      "widgetName": "vayImpExpLicenseNo",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 19,
+                                      "bottomRow": 23,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 12.7958984375,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "axose7pn1a",
+                                      "isRequired": false,
+                                      "rightColumn": 62,
+                                      "widgetId": "0pj4ns1uar",
+                                      "isVisible": true,
+                                      "label": "Import Export License No",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_IMP_EXP_LICENSE_NO}}"
+                                    },
+                                    {
+                                      "widgetName": "vayLegalEntityID",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 25,
+                                      "bottomRow": 29,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "yfmnyr3a1d",
+                                      "isRequired": false,
+                                      "rightColumn": 62,
+                                      "widgetId": "vv0feg4erh",
+                                      "isVisible": true,
+                                      "label": "Legal Entity Identifier",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_LEGAL_ENTITY_ID}}"
+                                    },
+                                    {
+                                      "widgetName": "vayFgnWebsite",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 31,
+                                      "bottomRow": 35,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 35,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "epdb38ire8",
+                                      "isRequired": true,
+                                      "rightColumn": 62,
+                                      "widgetId": "6jmidb9uzx",
+                                      "isVisible": true,
+                                      "label": "Website",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "regex": "([a-z0-9-]+\\:\\/+)([^\\/\\s]+)([a-z0-9\\-@\\^=%&;\\/~\\+]*)[\\?]?([^ \\#\\r\\n]*)#?([^ \\#\\r\\n]*)",
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_WEBSITE}}"
+                                    },
+                                    {
+                                      "widgetName": "vayBusinessNature",
+                                      "isFilterable": false,
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Select",
+                                      "iconSVG": "/static/media/icon.bd99caba.svg",
+                                      "labelText": "Nature of Business",
+                                      "topRow": 31,
+                                      "bottomRow": 35,
+                                      "parentRowSpace": 10,
+                                      "type": "DROP_DOWN_WIDGET",
+                                      "serverSideFiltering": false,
+                                      "hideCard": false,
+                                      "defaultOptionValue": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_NATURE}}",
+                                      "selectionType": "SINGLE_SELECT",
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultOptionValue"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "options": "[\n  {\n    \"label\": \"Manufacturing\",\n    \"value\": \"manufacturing\"\n  },\n  {\n    \"label\": \"Service\",\n    \"value\": \"service\"\n  },\n  {\n    \"label\": \"Trading\",\n    \"value\": \"trading\"\n  }\n]",
+                                      "placeholderText": "Select option",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "oo6zkzp4rj",
+                                      "isRequired": true,
+                                      "rightColumn": 32,
+                                      "widgetId": "pbl7j05tdw",
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false
+                                    },
+                                    {
+                                      "widgetName": "vayFgnBusinessActivity",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 39,
+                                      "bottomRow": 43,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.0078125,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 2,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultText"
+                                        },
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "isDisabled": "{{appsmith.store.viewOnly}}",
+                                      "key": "kpedijske0",
+                                      "isRequired": true,
+                                      "rightColumn": 62,
+                                      "widgetId": "av4jaxtidn",
+                                      "isVisible": true,
+                                      "label": "Nature of Activity",
+                                      "allowCurrencyChange": false,
+                                      "version": 1,
+                                      "parentId": "lvdo9h0fmu",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "iconAlign": "left",
+                                      "defaultText": "{{selectCurrentBusinessDetails.data[0].CUSTOMER_BUSINESS_NATURE_ACTIVITY}}"
+                                    }
+                                  ],
+                                  "isDisabled": false,
+                                  "key": "h3bp9ttai9",
+                                  "tabName": "Business Info",
+                                  "rightColumn": 317.34375,
+                                  "detachFromLayout": true,
+                                  "widgetId": "lvdo9h0fmu",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "hrepweboni",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false
+                                },
+                                {
+                                  "tabId": "tab45nxnvjx0k",
+                                  "widgetName": "Canvas5",
+                                  "displayName": "Canvas",
+                                  "topRow": 1,
+                                  "bottomRow": 390,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": false,
+                                  "hideCard": true,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 0,
+                                  "dynamicBindingPathList": [],
+                                  "children": [
+                                    {
+                                      "widgetName": "Text40Copy",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 5,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "overflow": "NONE",
+                                      "parentColumnSpace": 12.4969482421875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 38,
+                                      "dynamicBindingPathList": [],
+                                      "shouldTruncate": false,
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "COMMUNICATION ADDRESS",
+                                      "key": "jyxixsorcj",
+                                      "rightColumn": 54,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "n6kjbqm3v8",
+                                      "isVisible": true,
+                                      "fontStyle": "BOLD",
+                                      "textColor": "#264283",
+                                      "version": 1,
+                                      "parentId": "c4qclzn4qy",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH2"
+                                    },
+                                    {
+                                      "widgetName": "Text39Copy",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 6,
+                                      "bottomRow": 22,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "overflow": "NONE",
+                                      "parentColumnSpace": 12.4969482421875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 38,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "shouldTruncate": false,
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_LINE1 }},{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_LINE2 }},{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_CITY }},{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_DISTRICT }},\n{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_ZIP }} ,{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_STATE }},{{selectCurrentAddress.data[0].CUSTOMER_COMM_ADDRESS_COUNTRY }}  ",
+                                      "key": "jyxixsorcj",
+                                      "rightColumn": 63,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "s3ja6hxbn7",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "c4qclzn4qy",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text39",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 6,
+                                      "bottomRow": 22,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "overflow": "NONE",
+                                      "parentColumnSpace": 12.4969482421875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "text"
+                                        }
+                                      ],
+                                      "shouldTruncate": false,
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_LINE1 }},{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_LINE2 }},{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_CITY }},{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_DISTRICT }},\n{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_ZIP }} ,{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_STATE }},{{selectCurrentAddress.data[0].CUSTOMER_REG_ADDRESS_COUNTRY }}  ",
+                                      "key": "jyxixsorcj",
+                                      "rightColumn": 26,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "z17996tl41",
+                                      "isVisible": true,
+                                      "fontStyle": "",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "c4qclzn4qy",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH"
+                                    },
+                                    {
+                                      "widgetName": "Text40",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 5,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "overflow": "NONE",
+                                      "parentColumnSpace": 12.4969482421875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [],
+                                      "shouldTruncate": false,
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "REGISTERED ADDRESS",
+                                      "key": "jyxixsorcj",
+                                      "rightColumn": 17,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "blb5s7vsb8",
+                                      "isVisible": true,
+                                      "fontStyle": "BOLD",
+                                      "textColor": "#264283",
+                                      "version": 1,
+                                      "parentId": "c4qclzn4qy",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "fontSize": "PARAGRAPH2"
+                                    }
+                                  ],
+                                  "key": "h3bp9ttai9",
+                                  "tabName": "Address",
+                                  "rightColumn": 819.8046875,
+                                  "detachFromLayout": true,
+                                  "widgetId": "c4qclzn4qy",
+                                  "containerStyle": "none",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "hrepweboni",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false
+                                },
+                                {
+                                  "tabId": "tabvw58hdvlqb",
+                                  "widgetName": "Canvas6",
+                                  "displayName": "Canvas",
+                                  "topRow": 1,
+                                  "bottomRow": 390,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": false,
+                                  "hideCard": true,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 0,
+                                  "dynamicBindingPathList": [],
+                                  "children": [
+                                    {
+                                      "widgetName": "CheckboxGroup1",
+                                      "displayName": "Checkbox Group",
+                                      "iconSVG": "/static/media/icon.ecb38479.svg",
+                                      "topRow": 3,
+                                      "bottomRow": 30,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_GROUP_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 12.4969482421875,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 1,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "defaultSelectedValues"
+                                        }
+                                      ],
+                                      "options": [
+                                        {
+                                          "label": "Euro (€)",
+                                          "value": "EUR"
+                                        },
+                                        {
+                                          "label": "British Pound (£)",
+                                          "value": "GBP"
+                                        },
+                                        {
+                                          "label": "United States Dollar ($)",
+                                          "value": "USD"
+                                        },
+                                        {
+                                          "label": "Singapore Dollar (SG$)",
+                                          "value": "SGD"
+                                        }
+                                      ],
+                                      "isDisabled": false,
+                                      "key": "ovkcgpxih7",
+                                      "isRequired": false,
+                                      "rightColumn": 58,
+                                      "defaultSelectedValues": "{{selectCurrentSelectedCurrency.data.map((i)=> i.value)}}",
+                                      "widgetId": "wcvqh7l062",
+                                      "isVisible": true,
+                                      "version": 2,
+                                      "parentId": "hh0oumf6vx",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "isInline": false
+                                    }
+                                  ],
+                                  "key": "h3bp9ttai9",
+                                  "tabName": "Currencies",
+                                  "rightColumn": 819.8046875,
+                                  "detachFromLayout": true,
+                                  "widgetId": "hh0oumf6vx",
+                                  "containerStyle": "none",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "hrepweboni",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false
+                                },
+                                {
+                                  "tabId": "tabi39ga3y922",
+                                  "widgetName": "Canvas7",
+                                  "displayName": "Canvas",
+                                  "topRow": 1,
+                                  "bottomRow": 401,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": false,
+                                  "hideCard": true,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "dynamicTriggerPathList": [],
+                                  "leftColumn": 0,
+                                  "dynamicBindingPathList": [],
+                                  "children": [
+                                    {
+                                      "widgetName": "Table1Copy",
+                                      "defaultPageSize": 0,
+                                      "columnOrder": [
+                                        "CUSTOMER_BANK_CURRENCY_CODE",
+                                        "CUSTOMER_SETTLE_BANK_NAME",
+                                        "CUSTOMER_SETTLE_BRANCH_NAME",
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_NO",
+                                        "CUSTOMER_SETTLE_BANK_ID_TYPE",
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE",
+                                        "CUSTOMER_SETTLE_BANK_ID_NUMBER",
+                                        "CUSTOMER_SETTLE_BANK_IBAN",
+                                        "CUSTOMER_SETTLE_BANK_SWIFTCODE",
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_NAME",
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE",
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE",
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL",
+                                        "CUSTOMER_SETTLE_BANK_SELFUNDERTAKE",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_LINE1",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_LINE2",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_CITY",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_ZIP",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_STATE",
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY",
+                                        "CUSTOMER_CORR_BANK_NAME",
+                                        "CUSTOMER_CORR_BANK_ACCOUNT_NO",
+                                        "CUSTOMER_CORR_BANK_ID_TYPE",
+                                        "CUSTOMER_CORR_BANK_ID_NUMBER",
+                                        "CUSTOMER_CORR_BANK_IBAN",
+                                        "CUSTOMER_CORR_BANK_SWIFTCODE",
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_PURPOSE",
+                                        "customColumn1"
+                                      ],
+                                      "isVisibleDownload": true,
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "primaryColumns.customColumn1.onClick"
+                                        }
+                                      ],
+                                      "displayName": "Table",
+                                      "iconSVG": "/static/media/icon.db8a9cbd.svg",
+                                      "topRow": 1,
+                                      "bottomRow": 30,
+                                      "isSortable": true,
+                                      "parentRowSpace": 10,
+                                      "type": "TABLE_WIDGET",
+                                      "defaultSelectedRow": "0",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 12,
+                                      "dynamicTriggerPathList": [
+                                        {
+                                          "key": "primaryColumns.customColumn1.onClick"
+                                        }
+                                      ],
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "tableData"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_BANK_CURRENCY_CODE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_NAME.computedValue"
+                                        },
+                                        {
+                                          "key": "derivedColumns.customColumn1.buttonLabel"
+                                        },
+                                        {
+                                          "key": "primaryColumns.customColumn1.buttonLabel"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BRANCH_NAME.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_ACCOUNT_NO.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_ACCOUNT_PURPOSE.computedValue"
+                                        },
+                                        {
+                                          "key": "derivedColumns.customColumn1.isDisabled"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_ID_TYPE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_ID_NUMBER.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_IBAN.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_SWIFTCODE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_OFFICIAL_NAME.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLE_BANK_SELFUNDERTAKE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_LINE1.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_LINE2.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_CITY.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_ZIP.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_STATE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_NAME.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_ACCOUNT_NO.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_ID_TYPE.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_ID_NUMBER.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_IBAN.computedValue"
+                                        },
+                                        {
+                                          "key": "primaryColumns.CUSTOMER_CORR_BANK_SWIFTCODE.computedValue"
+                                        }
+                                      ],
+                                      "leftColumn": 0,
+                                      "primaryColumns": {
+                                        "CUSTOMER_BANK_CURRENCY_CODE": {
+                                          "index": 0,
+                                          "width": 150,
+                                          "id": "CUSTOMER_BANK_CURRENCY_CODE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CURRENCY_CODE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_BANK_CURRENCY_CODE))}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_NAME": {
+                                          "index": 1,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_NAME",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "BANK_NAME",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_NAME))}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "customColumn1": {
+                                          "index": 2,
+                                          "width": 150,
+                                          "id": "customColumn1",
+                                          "columnType": "button",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": true,
+                                          "label": "View",
+                                          "computedValue": "",
+                                          "buttonStyle": "rgb(3, 179, 101)",
+                                          "buttonLabelColor": "#FFFFFF",
+                                          "buttonColor": "#03B365",
+                                          "menuColor": "#03B365",
+                                          "labelColor": "#FFFFFF",
+                                          "buttonLabel": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( 'View'))}}",
+                                          "onClick": "{{\n\t(function(){\n\t\tstoreValue('vayCurrentCcySymbol',currentRow.CUSTOMER_BANK_CURRENCY_CODE);\n\t\tnavigateTo('Bank Account Information', {})\n\t})()\n}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "CUSTOMER_SETTLE_BRANCH_NAME": {
+                                          "index": 2,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BRANCH_NAME",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "BRANCH_NAME",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BRANCH_NAME))}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_NO": {
+                                          "index": 3,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_ACCOUNT_NO",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "BANK_ACCOUNT_NO",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_ACCOUNT_NO))}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_PURPOSE": {
+                                          "index": 4,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_ACCOUNT_PURPOSE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "ACCOUNT_PURPOSE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_ACCOUNT_PURPOSE))}}",
+                                          "textColor": "#264283"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_ID_TYPE": {
+                                          "index": 9,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_ID_TYPE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_ID_TYPE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_ID_TYPE))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE": {
+                                          "index": 10,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_ACCOUNT_TYPE))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_ID_NUMBER": {
+                                          "index": 11,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_ID_NUMBER",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_ID_NUMBER",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_ID_NUMBER))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_IBAN": {
+                                          "index": 12,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_IBAN",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_IBAN",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_IBAN))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_SWIFTCODE": {
+                                          "index": 13,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_SWIFTCODE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_SWIFTCODE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_SWIFTCODE))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_NAME": {
+                                          "index": 14,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_OFFICIAL_NAME",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_OFFICIAL_NAME",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_OFFICIAL_NAME))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE": {
+                                          "index": 15,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_OFFICIAL_MOBILE))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE": {
+                                          "index": 16,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_OFFICIAL_PHONE))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL": {
+                                          "index": 17,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_OFFICIAL_EMAIL))}}"
+                                        },
+                                        "CUSTOMER_SETTLE_BANK_SELFUNDERTAKE": {
+                                          "index": 18,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLE_BANK_SELFUNDERTAKE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLE_BANK_SELFUNDERTAKE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLE_BANK_SELFUNDERTAKE))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_LINE1": {
+                                          "index": 19,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_LINE1",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_LINE1",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_LINE1))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_LINE2": {
+                                          "index": 20,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_LINE2",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_LINE2",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_LINE2))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_CITY": {
+                                          "index": 21,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_CITY",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_CITY",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_CITY))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT": {
+                                          "index": 22,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_DISTRICT))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_ZIP": {
+                                          "index": 23,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_ZIP",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_ZIP",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_ZIP))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_STATE": {
+                                          "index": 24,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_STATE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_STATE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_STATE))}}"
+                                        },
+                                        "CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY": {
+                                          "index": 25,
+                                          "width": 150,
+                                          "id": "CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_SETTLEBANK_ADDRESS_COUNTRY))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_NAME": {
+                                          "index": 26,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_NAME",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_NAME",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_NAME))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_ACCOUNT_NO": {
+                                          "index": 27,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_ACCOUNT_NO",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_ACCOUNT_NO",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_ACCOUNT_NO))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_ID_TYPE": {
+                                          "index": 29,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_ID_TYPE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_ID_TYPE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_ID_TYPE))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_ID_NUMBER": {
+                                          "index": 30,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_ID_NUMBER",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_ID_NUMBER",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_ID_NUMBER))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_IBAN": {
+                                          "index": 31,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_IBAN",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_IBAN",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_IBAN))}}"
+                                        },
+                                        "CUSTOMER_CORR_BANK_SWIFTCODE": {
+                                          "index": 32,
+                                          "width": 150,
+                                          "id": "CUSTOMER_CORR_BANK_SWIFTCODE",
+                                          "horizontalAlignment": "LEFT",
+                                          "verticalAlignment": "CENTER",
+                                          "columnType": "text",
+                                          "textColor": "#264283",
+                                          "textSize": "PARAGRAPH",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": false,
+                                          "isCellVisible": true,
+                                          "isDerived": false,
+                                          "label": "CUSTOMER_CORR_BANK_SWIFTCODE",
+                                          "computedValue": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_CORR_BANK_SWIFTCODE))}}"
+                                        }
+                                      },
+                                      "delimiter": ",",
+                                      "key": "4w1xjomw4f",
+                                      "derivedColumns": {
+                                        "customColumn1": {
+                                          "index": 2,
+                                          "width": 150,
+                                          "id": "customColumn1",
+                                          "columnType": "button",
+                                          "enableFilter": true,
+                                          "enableSort": true,
+                                          "isVisible": true,
+                                          "isDisabled": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.store.viewOnly))}}",
+                                          "isCellVisible": true,
+                                          "isDerived": true,
+                                          "label": "View",
+                                          "computedValue": "",
+                                          "buttonStyle": "rgb(3, 179, 101)",
+                                          "buttonLabelColor": "#FFFFFF",
+                                          "buttonColor": "#03B365",
+                                          "menuColor": "#03B365",
+                                          "labelColor": "#FFFFFF",
+                                          "buttonLabel": "{{Table1Copy.sanitizedTableData.map((currentRow) => ( 'View'))}}",
+                                          "textColor": "#264283"
+                                        }
+                                      },
+                                      "rightColumn": 64,
+                                      "textSize": "PARAGRAPH",
+                                      "widgetId": "z76s3vkdj7",
+                                      "isVisibleFilters": true,
+                                      "tableData": "{{selectCurrentBankDetails.data}}",
+                                      "isVisible": true,
+                                      "label": "Data",
+                                      "searchKey": "",
+                                      "enableClientSideSearch": true,
+                                      "version": 3,
+                                      "textColor": "#264283",
+                                      "totalRecordsCount": 0,
+                                      "parentId": "huegmdncno",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "horizontalAlignment": "LEFT",
+                                      "isVisibleSearch": true,
+                                      "isVisiblePagination": true,
+                                      "verticalAlignment": "CENTER",
+                                      "columnSizeMap": {
+                                        "task": 245,
+                                        "step": 62,
+                                        "status": 75
+                                      }
+                                    }
+                                  ],
+                                  "key": "h3bp9ttai9",
+                                  "tabName": "Bank Accounts",
+                                  "rightColumn": 819.8046875,
+                                  "detachFromLayout": true,
+                                  "widgetId": "huegmdncno",
+                                  "containerStyle": "none",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "hrepweboni",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false
+                                }
+                              ],
+                              "key": "546wskq452",
+                              "rightColumn": 63,
+                              "widgetId": "hrepweboni",
+                              "defaultTab": "Tab 1",
+                              "onTabSelected": "",
+                              "shouldShowTabs": true,
+                              "tabsObj": {
+                                "tab1": {
+                                  "label": "Application Info",
+                                  "id": "tab1",
+                                  "widgetId": "vlgbelsi7u",
+                                  "isVisible": true,
+                                  "index": 0
+                                },
+                                "tab2": {
+                                  "label": "Business Info",
+                                  "id": "tab2",
+                                  "widgetId": "lvdo9h0fmu",
+                                  "isVisible": true,
+                                  "index": 1
+                                },
+                                "tab45nxnvjx0k": {
+                                  "id": "tab45nxnvjx0k",
+                                  "index": 2,
+                                  "label": "Address",
+                                  "widgetId": "c4qclzn4qy",
+                                  "isVisible": true
+                                },
+                                "tabvw58hdvlqb": {
+                                  "id": "tabvw58hdvlqb",
+                                  "index": 3,
+                                  "label": "Currencies",
+                                  "widgetId": "hh0oumf6vx",
+                                  "isVisible": true
+                                },
+                                "tabi39ga3y922": {
+                                  "id": "tabi39ga3y922",
+                                  "index": 4,
+                                  "label": "Bank Accounts",
+                                  "widgetId": "huegmdncno",
+                                  "isVisible": true
+                                }
+                              },
+                              "isVisible": true,
+                              "version": 3,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false
+                            },
+                            {
+                              "widgetName": "Text41",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 59,
+                              "bottomRow": 63,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 17.16015625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 50,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "{{appsmith.store.customerID}}",
+                              "key": "voj0ygm7kp",
+                              "rightColumn": 64,
+                              "textAlign": "LEFT",
+                              "widgetId": "nilxkfwbzp",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "fr9ojudoj6",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            }
+                          ],
+                          "key": "r14iupe8ec"
+                        }
+                      ],
+                      "key": "t2g8hpiw0j"
+                    }
+                  ],
+                  "key": "r14iupe8ec"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "yoesazxk46",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 64,
+              "widgetId": "39ymvxqhi2",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Verification Business Form_QueryIncorporationCountry",
+              "name": "QueryIncorporationCountry",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Verification Business Form_selectCurrentBankDetails",
+              "name": "selectCurrentBankDetails",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Verification Business Form_SelectQuery",
+              "name": "SelectQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Verification Business Form_selectCurrentAddress",
+              "name": "selectCurrentAddress",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Verification Business Form_selectCurrentBusinessDetails",
+              "name": "selectCurrentBusinessDetails",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Verification Business Form_selectCurrentSelectedCurrency",
+              "name": "selectCurrentSelectedCurrency",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Verification Business Form_ListKYCDocQuery",
+              "name": "ListKYCDocQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.FilePath",
+                "appsmith.store.BucketName",
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Canvas1",
+          "Canvas2",
+          "Canvas3",
+          "Canvas4",
+          "Canvas5",
+          "Canvas6",
+          "Canvas7",
+          "CheckboxGroup1",
+          "Container1",
+          "Form1",
+          "FormButton1",
+          "FormButton2",
+          "Image1",
+          "MainContainer",
+          "Table1",
+          "Table1Copy",
+          "Tabs1",
+          "Text1",
+          "Text25",
+          "Text26",
+          "Text27",
+          "Text28",
+          "Text29",
+          "Text2Copy",
+          "Text30",
+          "Text31",
+          "Text32",
+          "Text33",
+          "Text34",
+          "Text35",
+          "Text36",
+          "Text36Copy",
+          "Text37",
+          "Text38",
+          "Text39",
+          "Text39Copy",
+          "Text3Copy",
+          "Text40",
+          "Text40Copy",
+          "Text41",
+          "vayBusinessNature",
+          "vayFgnBusinessActivity",
+          "vayFgnCommDate",
+          "vayFgnConstitution",
+          "vayFgnConstitutionOthers",
+          "vayFgnRegCountry",
+          "vayFgnRegDate",
+          "vayFgnRegNo",
+          "vayFgnRegPlace",
+          "vayFgnRegulatorName",
+          "vayFgnWebsite",
+          "vayImpExpLicenseNo",
+          "vayLegalEntityID"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Verification Business Form",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_626253eab8cddf1c5a43c780"
+}

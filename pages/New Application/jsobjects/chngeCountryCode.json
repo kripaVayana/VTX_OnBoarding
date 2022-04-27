@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "chngeCountryCode",
+    "pageId": "New Application",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async () => {\n\t\t\tawait selectISDcodeRegisteredCountry.run()\n    //.then((response) => showAlert(response) )\n   // .catch((error) => showAlert(error, 'error'))\n\tstoreValue('vayCountryofRegistration', vayCountryofRegistration.selectedOptionValue);\n\t\t\tstoreValue('vayApplicantISDCode',\tselectISDcodeRegisteredCountry.data[0].isdcode);\n\t},\n\tmyFunValidMobilenumber: () => {\n\t\t\n\t\tif(vayCountryofRegistration.selectedOptionValue=='IN')\n\t\t\t\n\t\t\t{\n\t\t\t\tif(vayApplicantMobile1.text.length == 10)\n\t\t\t\t\treturn true;\n\t\t\t\telse\n\t\t\t\t\treturn false;\n\t\t\t}\n\t\telse\n\t\t\treturn true;\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "New Application_chngeCountryCode",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_624bb3574eae7255ccdd4f75"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "India Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgenerateOID: (intValue) => {\n\t\treturn [...Array(8)].map(() => Math.floor(Math.random() * intValue).toString(intValue)).join('')\n\t},\n\tmyfunsetCINAddr : () => {\n\t\tstoreValue('vayCrComAddr1',appsmith.store.vayCinRegAddrr1)\n\t\t \n\t\t\n\t\t\tstoreValue('vayCrComAddr2',appsmith.store.vayCinRegAddrr2)\n\t\t\tstoreValue('vayCrComCity',appsmith.store.vayCinRegCity)\n\t\t\tstoreValue('vayCrComDistrict'\t,appsmith.store.vayCinRegDistrict)\n\t\t\t\t\t\t\t\t storeValue('vayCrComState',appsmith.store.vayCinRegState)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComCountry',appsmith.store.vayCinRegCountry)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComPinCode',appsmith.store.vayCinRegPinCode)\n\t\t\n\t},\n\tmyfunsetGSTAddr : () => {\n\t\tstoreValue('vayCrComAddr1',appsmith.store.vayGSTRegAddrr1)\n\t\t \n\t\t\n\t\t\tstoreValue('vayCrComAddr2',appsmith.store.vayGSTRegAddrr2)\n\t\t\tstoreValue('vayCrComCity',appsmith.store.vayGSTRegCity)\n\t\t\tstoreValue('vayCrComDistrict'\t,appsmith.store.vayGSTRegDistrict)\n\t\t\t\t\t\t\t\t storeValue('vayCrComState',appsmith.store.vayGSTRegState)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComCountry',appsmith.store.vayGSTRegCountry)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComPinCode',appsmith.store.vayGSTRegPinCode)\n\t\t\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "India Corporate Address_utils",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_61fa67e88f87275123951b12"
+}

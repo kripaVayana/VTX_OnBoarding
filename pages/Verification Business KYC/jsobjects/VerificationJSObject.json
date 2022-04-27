@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "VerificationJSObject",
+    "pageId": "Verification Business KYC",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tdocShortForms: {\n\t\t'POI': 'Proof of Identification',\n\t\t'POA': 'Proof of Address',\n\t\t'PAN': 'PAN',\n\t\t'CC': 'Cancelled Cheque',\n\t\t'IEC': 'Import Export Certificate',\n\t\t'PD': 'PartnerShip Deed',\n\t\t'PL': 'Partnership Letter',\n\t\t\n\t\t'COI': 'Certificate of Incorporation',\n\t\t'MAA':'Memorandum & Article of Association',\n\t\t'LDIR': 'List of Directors with DIN',\n\t\t'BR': 'Board Resolution',\n\t\t'BOD': 'Beneficial ownership declaration'\n\t},\n\tgetTableData: () => {\n\t\treturn ListKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tDownload: '',\n\t\t\t\tApiVarificaion: '',\n\t\t\t\tVerificationStatus: '',\n\t\t\t\tpath: entry.fileName,\n\t\t\t\tverFilePrefix: entry.fileName.split(\"__\")[0].replace(\"_\", \"_VER_\"),\n\t\t\t};\n\t\t});\n\t},\n\t\n\tdownloadFile: async (fileName, path) => {\n\t\tshowAlert(`File name for download: ${fileName} ${path}`);\n\t\tconst name = fileName;\n\t\tawait storeValue('tempfileName', fileName);\n\t\tawait downloadFileQuery.run(()=> {\n\t\t\t\tdownload(atob(downloadFileQuery.data.fileData), appsmith.store.tempfileName);\n\t\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t},\n\t\n\tgetVerKYCDocName: () => {\n\t\tconst meta = selectVeriStatus.selectedOptionValue ? `${selectVeriStatus.selectedOptionValue}__`: '';\n\t\treturn Table1.selectedRow.verFilePrefix + '__' + meta + FilePicker1.files[0].name;\n\t},\n\t\n\tonSaveAndUpdateVer: async () => {\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait resetWidget('Form1', true);\n\t\tawait ListVerifiedKYCDocQuery.run();\n\t\tawait insertVerificationStatus.run();\n\t},\n\t\n\tgetVerTableData: () => {\n\t\treturn ListVerifiedKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tStatus: fileDetails[1] === 's' ? 'Success' : 'Failure',\n\t\t\t\tVerificationFileName: fileDetails[2],\n\t\t\t\tDownload: '',\n\t\t\t\tpath: entry.fileName\n\t\t\t};\n\t\t});\n\t} \n\t\n}",
+    "variables": [
+      {
+        "name": "docShortForms",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Verification Business KYC_VerificationJSObject",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_6263c5e5b8cddf1c5a43c7bf"
+}

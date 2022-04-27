@@ -1,0 +1,2316 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Entity KYC Ind Proprietorship",
+    "Individual KYC Summary",
+    "Key Person Summary",
+    "LogInConfirmOTP",
+    "India Corporate Address",
+    "LogIn",
+    "Application Signing",
+    "UBO Entities Summary",
+    "Bank Account Information List",
+    "Key Person Add India",
+    "Currencies",
+    "Application Form - Foreign",
+    "Individual KYC India Add",
+    "Auth Signatory Summary",
+    "New Application",
+    "eSign Selection",
+    "Key Person Add Foreign",
+    "UBO Individuals Summary",
+    "Add New Address Indian",
+    "Auth Signatory Add India",
+    "UBO Entities Add",
+    "Form Submission",
+    "All Constitution Foreign",
+    "Entity Administrator Add",
+    "Bank Account Information",
+    "Application Submission Success",
+    "Entity KYC Foreign",
+    "Application Form - India",
+    "Auth Signatory Add Foreign",
+    "Application List View",
+    "India - Non Corporate",
+    "Homepage",
+    "Foreign Business Address",
+    "Entity KYC Ind LLP",
+    "Entity KYC Ind Company",
+    "India Non Corporate Address",
+    "UBO Individual Addition",
+    "Entity Administrator Summary",
+    "India - Corporate",
+    "Entity KYC Ind Partnership",
+    "Individual KYC Foreign Add",
+    "ShowApplicationDraft",
+    "LogInByPassword",
+    "Entity KYC Foreign Copy",
+    "Related Individuals",
+    "TestCurrencies",
+    "Verification Business KYC",
+    "Official Use Only",
+    "Due Diligence",
+    "Verification Individual Summar",
+    "Verification Business Form",
+    "Verification Individual KYC",
+    "Page1"
+  ],
+  "publishedPageOrder": [
+    "Entity KYC Ind Proprietorship",
+    "Individual KYC Summary",
+    "Key Person Summary",
+    "LogInConfirmOTP",
+    "India Corporate Address",
+    "LogIn",
+    "Application Signing",
+    "UBO Entities Summary",
+    "Bank Account Information List",
+    "Key Person Add India",
+    "Currencies",
+    "Application Form - Foreign",
+    "Individual KYC India Add",
+    "Auth Signatory Summary",
+    "New Application",
+    "eSign Selection",
+    "Key Person Add Foreign",
+    "UBO Individuals Summary",
+    "Add New Address Indian",
+    "Auth Signatory Add India",
+    "UBO Entities Add",
+    "Form Submission",
+    "All Constitution Foreign",
+    "Entity Administrator Add",
+    "Bank Account Information",
+    "Application Submission Success",
+    "Entity KYC Foreign",
+    "Application Form - India",
+    "Auth Signatory Add Foreign",
+    "Application List View",
+    "India - Non Corporate",
+    "Homepage",
+    "Foreign Business Address",
+    "Entity KYC Ind LLP",
+    "Entity KYC Ind Company",
+    "India Non Corporate Address",
+    "UBO Individual Addition",
+    "Entity Administrator Summary",
+    "India - Corporate",
+    "Entity KYC Ind Partnership",
+    "Individual KYC Foreign Add",
+    "ShowApplicationDraft",
+    "LogInByPassword",
+    "Entity KYC Foreign Copy",
+    "Related Individuals",
+    "TestCurrencies",
+    "Verification Business KYC",
+    "Official Use Only",
+    "Due Diligence",
+    "Verification Individual Summar",
+    "Verification Business Form",
+    "Verification Individual KYC",
+    "Page1"
+  ],
+  "publishedDefaultPageName": "LogIn",
+  "unpublishedDefaultPageName": "LogIn",
+  "invisibleActionFields": {
+    "Add New Address Indian_Helper.updateAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Add New Address Indian_Helper.updateAuthSignAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Add New Address Indian_Helper.updateEntityAdminAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Add New Address Indian_Helper.updateKeyPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Add New Address Indian_Helper.updateUBOIndividualAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Add New Address Indian_getAddressbyPincode": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_QueryIncorporationCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_QueryNatureOfBusiness": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_QuerySelectBusinessConstEntity": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_UpdateBusinessData.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_UpdateBusinessData.myUpdateandNavigateFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_UpdateBusinessDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "All Constitution Foreign_selectCurrentBusinessDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_CreateForeignApplication.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_CreateForeignApplication.mystoreandcreateFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_createForeignCustomer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_selectTaxRegistrationBody": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - Foreign_selecttaxJurisdiction": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_APILoginGetAuthToken": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Application Form - India_Helper.createUpdateCustomer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObject1.fetchGSTINDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObject1.getAddrLn": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObject1.onGSTINInputChange": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObject1.onfetchSuccess": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObject1.updateAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObjectStoreGSTAddr.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_JSObjectStoreGSTAddr.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_QueryselectUnamePwd": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Application Form - India_createCustomer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_deletecCustomer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_getCustomers": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_updateCustomerStatusAsDraft": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_vayGSTNPublicApi": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Form - India_vayGSTinEnrichAPI": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Application List View_Helper.editApplicationFormData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application List View_Helper.handleDraftApplication": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application List View_QuerySelectFormFillling": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Signing_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Signing_Helper.generatePDF": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Signing_Helper.updateCustomerStatus": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Signing_updateCustomerStatusAsFormSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Application Signing_uploadCustomerdocument": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.changeAuthPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.dummy1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.formList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.getAuthSignatoryPersonCurrencyLimitData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.getAuthSignatoryPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.testValidatePartner": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.updateAuthSignatoryPersonCurrencyLimitQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.updateAuthSignatoryPersonCurrencyLimitString": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.validatePartnerPercentage": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_Helper.validatePartnerPercentageold": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_authSignFrnCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_authSignFrnCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_createAuthSignCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_createAuthSignatoryFrn": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_getAuthSignPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_getPartnerPercentageInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_isAuthSignPersonFrnExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_updateAuthSignCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_updateAuthSignatoryFrn": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add Foreign_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.changeAuthPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.dummy1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.formList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.getAuthSignatoryPersonCurrencyLimitData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.getAuthSignatoryPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.testValidatePartner": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.updateAuthSignatoryPersonCurrencyLimitQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.updateAuthSignatoryPersonCurrencyLimitString": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.validatePartnerPercentage": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_Helper.validatePartnerPercentageold": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_authSignIndiaCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_authSignIndiaCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_createAuthSignCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_createAuthSignatoryIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_getAuthSignPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_getPartnerPercentageInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_isAuthSignPersonIndiaExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_updateAuthSignCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_updateAuthSignatoryIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Add India_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_fetchAuthSignatoryData.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_fetchAuthSignatoryData.getdetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_fetchAuthSignatoryData.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_getAuthSignatoryDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Auth Signatory Summary_getAuthSignatorySummary": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information List_JSObjectSelectCurrentBankDetai.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information List_JSObjectSelectCurrentBankDetai.myFunSelectCurrentBankDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information List_SelectCurrentBankDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information List_checkBankCurrencyEntries": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information List_selectActiveCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_JSBankAccountDetails.get_data_rows": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_JSBankAccountDetails.myFunCreateUpdateBankAccountDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_JSBankAccountDetails.myFunValidMobilenumberstlOff": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_JSBankAccountDetails.myFunValidMobilenumberstlmobile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_JSBankAccountDetails.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_createBankAccountDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_selectCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_selectCurrentBnkAccDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Bank Account Information_updateBankDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Currencies_deleteCurrency": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Currencies_insertCurrencyBnkAccInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Currencies_querySelectActiveCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Currencies_selectCurrentCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Currencies_selectCurrentSelectedCurrency": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Entity Administrator Add_Helper.changeEntityAdminAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.formList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.getEntityAdminCurrencyLimitData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.getEntityAdminPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.retainEntityAdminInKey": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.updateEntityAdminCurrencyLimitQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_Helper.updateEntityAdminCurrencyLimitString": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_createEntityAdmin": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_createEntityAdminCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_entityAdminCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_entityAdminCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_getEntityAdminCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_isEntityAdminExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_updateEntityAdmin": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_updateEntityAdminCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Add_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Summary_fetchEntityAdminData.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Summary_fetchEntityAdminData.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Summary_getEntityAdminDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity Administrator Summary_getEntityAdminSummary": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_DownloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_JSObject1.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_JSObjectGenerateID.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_JSObjectGenerateID.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_JSObjectUploadKYC.myFunUploadKYC": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_Query1": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Entity KYC Foreign Copy_QueryCancelledCheque": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_QueryInsertEntityKYCFGN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_QueryPOI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_QueryProofAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign Copy_QueryTaxRegCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_QueryCancelledCheque": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_QueryInsertEntityKYCFGN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_QueryPOI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_QueryProofAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_QueryTaxRegCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Foreign_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.getPOAUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.getPOIUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.myFunUploadKYCEntityIndCompany": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_JSObjectKYCEntityIndComp.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_ListDocsQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryArtOfAssoc": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryBeneDeclaration": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryBoardResolution": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryCanclChq": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryCertOfIncorp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryDirectorsList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryImpExpCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryInsertKYCEntityIndComp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryPAN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryPOA": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_QueryPOI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Company_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.getPOAUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.myFunUploadKYCIndLLP": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_JSObjectKYCIndLLP.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QueryEntityCertIncorp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QueryEntityPAN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QueryEntityPartnershipDeed": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QueryInsertEntityKYCIndLLP": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectEntityCnclChq": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectEntityImpExpCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectEntityLLPResolution": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectEntityPartnersList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectEntityPtnrshpLetter": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QuerySelectPOA": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_QueryselectEntityBenOwnershipD": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind LLP_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.getPOAUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.getPOIUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.myFunUploadKYCIndPartnership": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_JSObjectKYCIndPartnership.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKYCImpExpCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKYCPAN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKYCPtnrshipDeed": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKYCPtnrshipLtr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKYCancelChq": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKycPOA": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryIndPartnerKycPOI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_QueryInsertKYCIndPartnership": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Partnership_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.getPD1UploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.getPD2UploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.myFunUploadKYCIndProp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_JSObjectKYCIndProp.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryEntityCnclChq": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryEntityImpExpCert": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryEntityPAN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryEntityProofdoc1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryEntityProofdoc2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_QueryInsertEntityKYCIndProp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Entity KYC Ind Proprietorship_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_GetvayFgnComCountryISDCode": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Foreign Business Address_GetvayFgnRegCountryISDCode": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_InsertAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_JSObject1.myFungenerateOIDfordetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_JSobjectCreateUpdateAddress.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_JSobjectCreateUpdateAddress.myFunCreateAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_UpdateAddressDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_selectCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Foreign Business Address_selectCurrentAddressDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.dummy1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.dummy2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getAuthPersonNames": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustApplicantEmail": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustApplicantMobile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustApplicantName": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustBusinessName": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustCountryCode": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getCustParticipantType": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.getFormattedAuthPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_Helper.updateCustomerStatusAsFormSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_getAuthPersonInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_getCustomerInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Form Submission_updateCustomerStatusAsFormSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_Helper.chkRole": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_Helper.clearappsmithStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_Helper.onBoardCustomer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateBankCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateCustomerIDandPartID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateKYCCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateKeyPersonCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateKeyPersonLimitCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Homepage_updateUBOCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Corporate_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Corporate_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Corporate_selectCurrentDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Corporate_updateCustomerIndcorp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Non Corporate_JSObject1.onSaveClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Non Corporate_QueryNatureOfBusiness": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Non Corporate_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India - Non Corporate_updateCustomerIndiaNonCorpNext": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_JSObject1.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_JSObject1.myFunValidMobilenumber": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_JSObject1.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_corpCustomerCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_corpCustomerCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_createCustomerAddressDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_getCurrentAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_isCustomerAddrExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_updateCustomerDetailAddCommAdd": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_utils.myfunsetCINAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Corporate Address_utils.myfunsetGSTAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_JSObject1.myFunValidMobilenumber": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_JSObject1.myFunValidMobilenumbercomm": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_createNonCorpCustomerDetailAdd": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_isNonCorpCustomerAddressExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_noncorpCustomerCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_noncorpCustomerCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_selectCurrentrecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_updateNonCorpCustomerDetailAdd": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.clearComm1Addr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.clearCommAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.myfunsetCINAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.myfunsetCommAddrtoGSTAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.myfunsetNCAddrtoCommAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "India Non Corporate Address_utils.myfunsetRegAddrtoGSTAddr": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.getPOAUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.getPOIUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.myFunUploadKYC": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_JSObjectIndFgnKYC.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_QueryIndFgnKycPOA": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_QueryIndFgnKycPhoto": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_QueryIndFgnKycPoi": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_QueryInsertIndFGN": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Foreign Add_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.deleteIfFileExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.dummy1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.getOldFilePath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.getPOAUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.getPOIUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.myFunUploadKYCIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_JSObjectIndIndiaKYC.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_QueryIndKycIndiaPOA": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_QueryIndKycIndiaPOI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_QueryIndKycIndiaPhoto": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_QueryInsertIndIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC India Add_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_Helper.createeSignAssineeList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_Helper.navigateToKYC": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_fetchPersonRequiredKYC": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Individual KYC Summary_getKeyPersonForeSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.changeKeyPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.clearappsmithStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.formList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.getKeyPersonCurrencyLimitData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.getKeyPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.updateKeyPersonCurrencyLimitQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.updateKeyPersonCurrencyLimitString": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_Helper.updateKeyPersonCurrencyLimitold": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_createKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_createKeyPersonFrn": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_getKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_isKeyPersonFrnExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_keyPersonFrnCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_keyPersonFrnCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_updateKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_updateKeyPersonFrn": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add Foreign_utils.getKeyPersonDataFromStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.changeKeyPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.clearappsmithStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.formList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.getKeyPersonCurrencyLimitData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.getKeyPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.get_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.retainKeyPersonInKey": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.updateKeyPersonCurrencyLimitQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.updateKeyPersonCurrencyLimitString": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_Helper.updateKeyPersonCurrencyLimitold": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_JSObject2.changeKeyPersonAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_JSObject2.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_createKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_createKeyPersonIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_getKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_isKeyPersonIndiaExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_keyPersonIndiaCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_keyPersonIndiaCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_updateKeyPersonCurrencyLimit": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_updateKeyPersonIndia": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Add India_utils.getKeyPersonDataFromStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Summary_fetchKeyPersonData.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Summary_fetchKeyPersonData.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Summary_getKeyPersonDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Key Person Summary_getKeyPersonSummary": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogInByPassword_LogInAPI": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogInByPassword_LoginBasedOnPassword.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogInByPassword_selectRoleofCurrentUser": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogInConfirmOTP_chkOTP.chkOTPfun": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogInConfirmOTP_chkOTP.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogIn_SendEmailTo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "LogIn_chkUserExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_InsertQuery_aps_customer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_JSGenerateID.customerOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_JSGenerateID.myFungenerateCOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_JSGenerateID.myFungenerateCPID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_NewAppStoreValues.newAppStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_chngeCountryCode.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_chngeCountryCode.myFunValidMobilenumber": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_selectCountryofRegistration": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "New Application_selectISDcodeRegisteredCountry": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "New Application_selectParticipantRole": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Page1_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_JSObject1.chkRole": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "ShowApplicationDraft_TestQ": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_TestQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ShowApplicationDraft_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSBankAccountcurrencyDetails.insertIfNotExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSBankAccountcurrencyDetails.myFunCreateUpdateBankAccountcurrencyDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSBankAccountcurrencyDetails.myFungenerateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSBankAccountcurrencyDetails.removeIfExist": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_Query2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_Query3": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_Query4": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_Query5": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_deleteCurrency": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_insertCurrencyBnkAccInfo": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_querySelectActiveCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_selectCurrentCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "TestCurrencies_selectCurrentSelectedCurrency": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "UBO Entities Add_Helper.changeUBOEntitiesAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_Helper.getUBOIndividualPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_Helper.retainUBOEntitiesInKey": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_createUBOEntities": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_isUBOEntitiesExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_uboEntitiesCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_uboEntitiesCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_updateUBOEntities": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Add_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Summary_fetchUBOEntitiesData.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Summary_fetchUBOEntitiesData.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Summary_getUBOEntitiesDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Entities Summary_getUBOEntitiesSummary": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.changeUBOIndividualAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.getCurrencies": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.getStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.getUBOIndividualPersonData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_Helper.initializeRetainKPObject": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_createUBOIndividualPerson": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_isUBOIndividualPersonExists": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_selectActiveCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_selectCurrentRecord": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_uboIndividualCreateAndUpdate.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_uboIndividualCreateAndUpdate.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_updateUBOIndividualPerson": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individual Addition_utils.generateOID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individuals Summary_fetchUBOIndividualData.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individuals Summary_fetchUBOIndividualData.onClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individuals Summary_getUBOIndividualDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UBO Individuals Summary_getUBOIndividualSummary": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_QueryIncorporationCountry": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_SelectQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_VerificationJSObject.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_VerificationJSObject.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_selectCurrentAddress": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_selectCurrentBankDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_selectCurrentBusinessDetails": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_selectCurrentSelectedCurrency": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business Form_test": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_ListVerifiedKYCDocQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Verification Business KYC_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_insertVerificationStatus": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_uploadVerKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_ListKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_VerificationJSObject.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_VerificationJSObject.getIndPrefix": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_VerificationJSObject.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_Helper.clearappsmithStore": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_Helper.createeSignAssineeList": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_Helper.dummy": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_Helper.onCustomerSentForVerifyAuth": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_Helper.updateCustomerStatus": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_getAllAuthSignPersons": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_getKeyPersonForeSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateBankCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateCustomerIDandPartID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateCustomerStatusAsFormSign": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateKYCCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateKeyPersonCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateKeyPersonLimitCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "eSign Selection_updateUBOCustID": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "displayName": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}

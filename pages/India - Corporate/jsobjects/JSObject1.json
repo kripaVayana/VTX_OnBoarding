@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "India - Corporate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//Call CIN API to get the address\n\t\tstoreValue('vayCinRegAddrr1','CinRegAddrr Line 1');\n\t\tstoreValue('vayCinRegAddrr2','CinRegAddrr Line 2');\n\t\tstoreValue('vayCinRegCity','CinRegAddrr City');\n\t\tstoreValue('vayCinRegDistrict','CinRegAddrr District');\n\t\t\tstoreValue('vayCinRegState','CinRegAddrr State');\n\t\tstoreValue('vayCinRegCountry','CinRegAddrr Country');\n\t\t\tstoreValue('vayCinRegPinCode','CinRegAddrr Pincode');\t\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "India - Corporate_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_6251a41b4eae7255ccdd5022"
+}

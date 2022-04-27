@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "Application Signing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tupdateCustomerStatus: () => {\n\t\tconst response =  updateCustomerStatusAsFormSign.run(); \n\t  if(!!response){\n\t\t \tshowAlert('Customer  application Status updated :: In Verification');\n\t\t\t\n\t   }else{\n\t\t  showAlert('Customer application record updation failed...Contact Admin')\n\t \t}\t\n\t},\n\tgeneratePDF: ()=>{\n\t\tconst customerOID = appsmith.store.customerOID //'2c3e7c70'\n\t\t//navigateTo('http://localhost:9090/TestPDF/GeneratePDF?custOID='+customerOID, {}, \"NEW_WINDOW\")\n\t\t//navigateTo('http://localhost:3000/generateReport', {}, \"NEW_WINDOW\")\n\t\tnavigateTo('http://onboarding.sandbox.vtx.vayana.com:93/applications/pdf', {}, \"NEW_WINDOW\")\n\t\t\n\t},\n\tdummy:()=>{\n\t\treturn appsmith.store.customerOID\n\t}\n}",
+    "variables": []
+  },
+  "id": "Application Signing_Helper",
+  "deleted": false,
+  "gitSyncId": "622b3cb95634651c919ec65d_622f501f4bbe7d49c0af2cfe"
+}

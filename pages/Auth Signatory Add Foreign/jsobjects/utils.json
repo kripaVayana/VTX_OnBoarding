@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Auth Signatory Add Foreign",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgenerateOID: (intValue) => {\n\t\treturn [...Array(8)].map(() => Math.floor(Math.random() * intValue).toString(intValue)).join('')\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "Auth Signatory Add Foreign_utils",
+  "deleted": false,
+  "gitSyncId": "621755a1972a414f3eae1d32_621cd917d5164d218fbe2b36"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "Form Submission",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tupdateCustomerStatusAsFormSign: () => {\n\t\tconst response =  updateCustomerStatusAsFormSign.run(); \n\t  if(!!response){\n\t\t \tshowAlert('Customer  application Status updated :: In Form Signing');\n\t\t\t\n\t   }else{\n\t\t  showAlert('Customer application record updation failed...Contact Admin')\n\t \t}\t\n\t},\n\tdummy: () =>{\n\t\t//storeValue('customerOID','29e3b6d5')\n\t\treturn appsmith.store.customerOID\n\t},\n\tgetCustBusinessName: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_NAME;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetCustCountryCode: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_COUNTRY_CODE;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetCustParticipantType: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_PARTICIPANT_TYPE;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetCustApplicantName: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_APPLICANT_NAME;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetCustApplicantMobile: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_APPLICANT_MOBILE;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetCustApplicantEmail: ()=>{\n\t\t\t  return getCustInfoTable.tableData[0].CUSTOMER_APPLICANT_EMAIL;\n\t\t\t\t//return '<h1>'+getCustInfoTable.tableData[0].CUSTOMER_BUSINESS_GSTN_DESC+'</h1>';\n\t\t   //return Helper.dummy1.CUSTOMER_BUSINESS_GSTN_DESC\n\t},\n\tgetAuthPersonNames: ()=>{\n  \t\treturn getAuthPersonTable.tableData.map((item) => {\n    \t\treturn {\n\t\t\t\t\t\tNames: item.CUSTOMER_KEY_PERSON_FIRSTNAME + ' ' + item.CUSTOMER_KEY_PERSON_MIDDLENAME+' ' + item.CUSTOMER_KEY_PERSON_LASTNAME,\n\t\t\t\t\t  PersonType: item.CUSTOMER_KEY_PERSON_ENTITY_TYPE\n    \t\t\t};\n\t\t\t\t});\n\t},\n  getFormattedAuthPersonData: () => {\n\t\t\treturn Helper.getAuthPersonNames().map(item => `${item.PersonType} - ${item.Names}`).join(',')\n  },\n\tdummy1: () =>{\n\t\treturn getCustomerInfo.data[0]\n\t},\n\t\tdummy2: () =>{\n\t\treturn getAuthPersonInfo.data\n\t}\n}",
+    "variables": []
+  },
+  "id": "Form Submission_Helper",
+  "deleted": false,
+  "gitSyncId": "622b3cb95634651c919ec65d_622b785c5634651c919ec925"
+}

@@ -1,0 +1,930 @@
+{
+  "unpublishedPage": {
+    "name": "New Application",
+    "slug": "new-application",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1084,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 710,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 720,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "vayNewApplicationPageContainer",
+              "borderColor": "#264283",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 1,
+              "bottomRow": 63,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "eu27rchmhk",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 520,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "rwnug5q6vf",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "vayLogo",
+                      "onClick": "{{navigateTo('Homepage', {})}}",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb96.svg",
+                      "topRow": 0,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "p6fdp3nhxk",
+                      "image": "https://sandbox.vtx.vayana.com/ITFS_UAT_APP/images/logo.png",
+                      "rightColumn": 11,
+                      "objectFit": "contain",
+                      "widgetId": "5zqn64x77r",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "eu27rchmhk",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "Form1",
+                      "backgroundColor": "white",
+                      "rightColumn": 61,
+                      "isCanvas": true,
+                      "displayName": "Form",
+                      "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                      "widgetId": "owkf3bdmur",
+                      "topRow": 10,
+                      "bottomRow": 50,
+                      "parentRowSpace": 10,
+                      "isVisible": true,
+                      "type": "FORM_WIDGET",
+                      "hideCard": false,
+                      "parentId": "eu27rchmhk",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 14.0625,
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [],
+                      "children": [
+                        {
+                          "widgetName": "Canvas2",
+                          "rightColumn": 337.5,
+                          "detachFromLayout": true,
+                          "displayName": "Canvas",
+                          "widgetId": "unhoyl2bz7",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 420,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "version": 1,
+                          "hideCard": true,
+                          "parentId": "owkf3bdmur",
+                          "minHeight": 400,
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [],
+                          "children": [
+                            {
+                              "widgetName": "vayManIndRegBusinessName",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 20,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "{{vayCountryofRegistration.selectedOptionValue==\"IN\"?\"*\":\"\"}}",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 22,
+                              "textAlign": "RIGHT",
+                              "widgetId": "8n6v6ahsqc",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndApplicantEmail",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 17,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 20,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 22,
+                              "textAlign": "RIGHT",
+                              "widgetId": "8byycj8o06",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndApplicantName",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 9,
+                              "bottomRow": 13,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 20,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 22,
+                              "textAlign": "RIGHT",
+                              "widgetId": "zntpcymmab",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndBusinessRegCountry",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 20,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 22,
+                              "textAlign": "RIGHT",
+                              "widgetId": "u4jxe6uj2m",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndPartcipantRole",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 10,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "ec2bu5uckc",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text1",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "text": "Join Vayana Tradexchange today.",
+                              "key": "s6tmji0oiy",
+                              "rightColumn": 42,
+                              "textAlign": "LEFT",
+                              "widgetId": "3zr4f83vts",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#264283",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "HEADING1"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "widgetName": "btnNext",
+                              "onClick": "{{NewAppStoreValues.newAppStore()}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 31,
+                              "bottomRow": 35,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 51,
+                              "dynamicBindingPathList": [],
+                              "text": "Next",
+                              "key": "d5bjea65lg",
+                              "rightColumn": 61,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "5k6evdguly",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": true,
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "widgetName": "FormButton2",
+                              "buttonColor": "#264283",
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 31,
+                              "bottomRow": 35,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 37,
+                              "dynamicBindingPathList": [],
+                              "text": "Reset",
+                              "key": "d5bjea65lg",
+                              "rightColumn": 47,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "28328ptdlm",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "widgetName": "vayHelperText2",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [],
+                              "text": "Select Participation Role",
+                              "key": "cclvbnf6cv",
+                              "rightColumn": 19,
+                              "textAlign": "LEFT",
+                              "widgetId": "e5jvhk56vm",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayRoleSelection",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "options"
+                                }
+                              ],
+                              "displayName": "Radio Group",
+                              "iconSVG": "/static/media/icon.ba2b2ee0.svg",
+                              "topRow": 9,
+                              "bottomRow": 21,
+                              "parentRowSpace": 10,
+                              "type": "RADIO_GROUP_WIDGET",
+                              "hideCard": false,
+                              "defaultOptionValue": "{{appsmith.store.vayApplicantRole}}",
+                              "animateLoading": false,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultOptionValue"
+                                },
+                                {
+                                  "key": "options"
+                                }
+                              ],
+                              "options": "{{selectParticipantRole.data}}",
+                              "isDisabled": false,
+                              "key": "acem6ccvqf",
+                              "isRequired": true,
+                              "rightColumn": 17,
+                              "widgetId": "z94hxvjt43",
+                              "isVisible": true,
+                              "label": "",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false
+                            },
+                            {
+                              "widgetName": "vayCountryofRegistration",
+                              "isFilterable": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "serverSideFiltering"
+                                }
+                              ],
+                              "displayName": "Select",
+                              "iconSVG": "/static/media/icon.bd99caba.svg",
+                              "labelText": "",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "DROP_DOWN_WIDGET",
+                              "serverSideFiltering": "true",
+                              "hideCard": false,
+                              "defaultOptionValue": "{{appsmith.store.vayCountryofRegistration}}",
+                              "selectionType": "SINGLE_SELECT",
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onOptionChange"
+                                }
+                              ],
+                              "leftColumn": 41,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultOptionValue"
+                                },
+                                {
+                                  "key": "options"
+                                }
+                              ],
+                              "options": "{{selectCountryofRegistration.data}}",
+                              "placeholderText": "Select option",
+                              "isDisabled": false,
+                              "key": "i5y3ud745n",
+                              "isRequired": true,
+                              "rightColumn": 62,
+                              "widgetId": "q4meenq3gl",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "onOptionChange": "{{chngeCountryCode.myFun1()}}"
+                            },
+                            {
+                              "widgetName": "vayApplicantName",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 9,
+                              "bottomRow": 13,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 11.1572265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 41,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": false,
+                              "key": "ld4jau4d3g",
+                              "isRequired": true,
+                              "rightColumn": 62,
+                              "widgetId": "xcqiabulo7",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "iconAlign": "left",
+                              "defaultText": "{{appsmith.store.vayApplicantName}}"
+                            },
+                            {
+                              "widgetName": "vayApplicantEmail",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                },
+                                {
+                                  "key": "labelTextColor"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 17,
+                              "bottomRow": 21,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 11.1572265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 41,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "labelTextColor": "",
+                              "inputType": "EMAIL",
+                              "isDisabled": false,
+                              "key": "ld4jau4d3g",
+                              "isRequired": true,
+                              "rightColumn": 62,
+                              "widgetId": "11czxo41v0",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "iconAlign": "left",
+                              "defaultText": "{{appsmith.store.vayApplicantEmail}}"
+                            },
+                            {
+                              "widgetName": "Text2",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 12.1484375,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 22,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Business Registration Country",
+                              "key": "tsh3fy9g74",
+                              "rightColumn": 41,
+                              "textAlign": "LEFT",
+                              "widgetId": "pzp15ypagf",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayApplicantMobile1",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                },
+                                {
+                                  "key": "defaultDialCode"
+                                }
+                              ],
+                              "displayName": "Phone Input",
+                              "iconSVG": "/static/media/icon.ec4f5c23.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "defaultDialCode": "{{appsmith.store.vayApplicantISDCode}}",
+                              "autoFocus": false,
+                              "type": "PHONE_INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 8.5234375,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 41,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "validation"
+                                },
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "isVisible"
+                                },
+                                {
+                                  "key": "defaultDialCode"
+                                }
+                              ],
+                              "countryCode": "CZ",
+                              "labelStyle": "",
+                              "isDisabled": false,
+                              "key": "n5m03t9bn1",
+                              "validation": "{{chngeCountryCode.myFunValidMobilenumber()}}",
+                              "isRequired": true,
+                              "rightColumn": 62,
+                              "widgetId": "7179ok8ntj",
+                              "allowDialCodeChange": true,
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "label": "",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "allowFormatting": false,
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "iconAlign": "left",
+                              "defaultText": "{{appsmith.store.vayApplicantMobile}}"
+                            },
+                            {
+                              "widgetName": "Text3",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 9,
+                              "bottomRow": 13,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.5625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 22,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Applicant Name",
+                              "key": "hosif1ghv3",
+                              "rightColumn": 40,
+                              "textAlign": "LEFT",
+                              "widgetId": "mycm20c27g",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text4",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.5625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 22,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Applicant Mobile",
+                              "key": "hosif1ghv3",
+                              "rightColumn": 40,
+                              "textAlign": "LEFT",
+                              "widgetId": "tqzdu0ogvu",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text5",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 17,
+                              "bottomRow": 21,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.5625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 22,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Applicant Email",
+                              "key": "hosif1ghv3",
+                              "rightColumn": 40,
+                              "textAlign": "LEFT",
+                              "widgetId": "wwt4k2plcf",
+                              "isVisible": "{{vayCountryofRegistration.selectedOptionValue != null}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "unhoyl2bz7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            }
+                          ],
+                          "key": "51vt6bs3i2"
+                        }
+                      ],
+                      "key": "15iwc844ft"
+                    }
+                  ],
+                  "key": "8trb38urdk"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "wjid7rj6aa",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 64,
+              "widgetId": "rwnug5q6vf",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "New Application_selectCountryofRegistration",
+              "name": "selectCountryofRegistration",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "New Application_selectParticipantRole",
+              "name": "selectParticipantRole",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "New Application_selectISDcodeRegisteredCountry",
+              "name": "selectISDcodeRegisteredCountry",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "vayCountryofRegistration.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Canvas1",
+          "Canvas2",
+          "Form1",
+          "FormButton2",
+          "MainContainer",
+          "Text1",
+          "Text2",
+          "Text3",
+          "Text4",
+          "Text5",
+          "btnNext",
+          "vayApplicantEmail",
+          "vayApplicantMobile1",
+          "vayApplicantName",
+          "vayCountryofRegistration",
+          "vayHelperText2",
+          "vayLogo",
+          "vayManIndApplicantEmail",
+          "vayManIndApplicantName",
+          "vayManIndBusinessRegCountry",
+          "vayManIndPartcipantRole",
+          "vayManIndRegBusinessName",
+          "vayNewApplicationPageContainer",
+          "vayRoleSelection"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "New Application",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "61d08dd5a4437918c01f9d15_61d0d0aba4437918c01f9ee9"
+}

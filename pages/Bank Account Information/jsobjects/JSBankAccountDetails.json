@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSBankAccountDetails",
+    "pageId": "Bank Account Information",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\n\tmyFunCreateUpdateBankAccountDetails:  async ()=> {\n\t//\tfor (var i = 0; i < appsmith.store.vayCCY.length; i++) {\n\t\t//await createBankAccountDetails.run({ index: i });\n\t\tselectCurrentBnkAccDetails.run();\n\t\t//showAlert(selectCurrentAddressDetails.data.length.toString())\n\t\tif(selectCurrentBnkAccDetails.data.length > 0)\n\t\t\t{\n\t\t\t\t\n\t\t\t\t//showAlert('record Exists')\n\t\t\tawait\tupdateBankDetails.run();\n\t\t\t\t\n\t\t\t}\n\t\telse\n\t\t\t{\n\tawait\tcreateBankAccountDetails.run()\n\t\t\t//\tshowAlert('record inserted')\n\t\t\t}\n\t\t\tnavigateTo('Bank Account Information List', {});\n//}\n\t},\n\t\tget_data_rows: () => {\n\t\t//return `(${vayBankAccountList.items.map(item => `\\'${item.vayCrspBankName.text}\\'`).join(\"), (\")})`;\n\t},\n\tmyFungenerateOID: () => {\n\t\treturn Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1).concat('OID');\n\t}\t,\n\tmyFunValidMobilenumberstlOff: () => {\n\t\t\n\t\tif(vayStlOfficialPhone.countryCode =='IN')\n\t\t\t\n\t\t\t{\n\t\t\t\tif(vayStlOfficialPhone.text.length == 10)\n\t\t\t\t\treturn true;\n\t\t\t\telse\n\t\t\t\t\treturn false;\n\t\t\t}\n\t\telse\n\t\t\treturn true;\n\t\t\n\t},\n\t\tmyFunValidMobilenumberstlmobile: () => {\n\t\t\n\t\tif(vayStlOfficialMobile.countryCode=='IN')\n\t\t\t\n\t\t\t{\n\t\t\t\tif(vayStlOfficialMobile.text.length == 10)\n\t\t\t\t\treturn true;\n\t\t\t\telse\n\t\t\t\t\treturn false;\n\t\t\t}\n\t\telse\n\t\t\treturn true;\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Bank Account Information_JSBankAccountDetails",
+  "deleted": false,
+  "gitSyncId": "61f91c227d9ae6350106c2a4_61fbb70b1c53c8021c8e73a7"
+}

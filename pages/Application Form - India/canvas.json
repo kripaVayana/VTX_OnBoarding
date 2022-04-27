@@ -1,0 +1,938 @@
+{
+  "unpublishedPage": {
+    "name": "Application Form - India",
+    "slug": "application-form-india",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 912,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 950,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 56,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "vayNewApplicationPageContainer",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 0,
+              "bottomRow": 71,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "wfyenumhnh",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 650,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "jrpjvoz8mw",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "vayLogo",
+                      "onClick": "{{navigateTo('Homepage', {})}}",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb96.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "p6fdp3nhxk",
+                      "image": "https://sandbox.vtx.vayana.com/ITFS_UAT_APP/images/logo.png",
+                      "rightColumn": 13,
+                      "objectFit": "contain",
+                      "widgetId": "jz7s0wsidz",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "wfyenumhnh",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "vayIndTaxDetails",
+                      "borderColor": "#264283",
+                      "isCanvas": true,
+                      "displayName": "Form",
+                      "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                      "topRow": 8,
+                      "bottomRow": 63,
+                      "parentRowSpace": 10,
+                      "type": "FORM_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 14.0625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "children": [
+                        {
+                          "widgetName": "Canvas2",
+                          "rightColumn": 337.5,
+                          "detachFromLayout": true,
+                          "displayName": "Canvas",
+                          "widgetId": "hnyltvrcpu",
+                          "containerStyle": "none",
+                          "topRow": 0,
+                          "bottomRow": 550,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "version": 1,
+                          "hideCard": true,
+                          "parentId": "bh6f2apg4m",
+                          "minHeight": 400,
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "boxShadow": "NONE",
+                              "widgetName": "IconButton2",
+                              "onClick": "{{navigateTo('Homepage', {})}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634a.svg",
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 15.9140625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "isDisabled": false,
+                              "key": "ui5sk65b1y",
+                              "rightColumn": 5,
+                              "iconName": "home",
+                              "widgetId": "ocimqju2g8",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "CIRCLE",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "widgetName": "Text5Copy",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 24,
+                              "bottomRow": 28,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Address:",
+                              "key": "lj31ahxk91",
+                              "rightColumn": 12,
+                              "textAlign": "LEFT",
+                              "widgetId": "ips93vtf0a",
+                              "isVisible": "{{vayBusinessNameList.options.length > 0 && vayBusinessNameList.value != \"\"}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndGSTN",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 18,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "nm7kz11hzr",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayManIndBusinessNameList",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 18,
+                              "bottomRow": 23,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "pl8wcershf",
+                              "isVisible": "{{vayGSTNInput.isValid}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayGSTNRespBusinessName",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 11,
+                              "dynamicBindingPathList": [],
+                              "text": "Tax Registration Details",
+                              "key": "s6tmji0oiy",
+                              "rightColumn": 53,
+                              "textAlign": "CENTER",
+                              "widgetId": "kvr8c0v624",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#264283",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "HEADING1"
+                            },
+                            {
+                              "widgetName": "vayHelperText2",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
+                              "text": "Register as {{appsmith.store.vayApplicantRole}}",
+                              "key": "cclvbnf6cv",
+                              "rightColumn": 20,
+                              "textAlign": "CENTER",
+                              "widgetId": "k10og3ufpl",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayGSTNInput",
+                              "dynamicPropertyPathList": [],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "onSubmit": "",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "tooltip": "Config on Text Change API",
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                },
+                                {
+                                  "key": "onSubmit"
+                                }
+                              ],
+                              "resetOnSubmit": true,
+                              "leftColumn": 12,
+                              "dynamicBindingPathList": [],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "placeholderText": "Config on Text Change API",
+                              "isDisabled": false,
+                              "key": "wjqpys4h0w",
+                              "isRequired": true,
+                              "onTextChanged": "{{JSObject1.onGSTINInputChange()}}",
+                              "rightColumn": 33,
+                              "widgetId": "sv890x7hji",
+                              "isVisible": true,
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "regex": "^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$",
+                              "iconAlign": "left",
+                              "defaultText": ""
+                            },
+                            {
+                              "widgetName": "vayGSTNRepsBusinessInfo",
+                              "dynamicPropertyPathList": [],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 19,
+                              "bottomRow": 23,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "SCROLL",
+                              "leftColumn": 34,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
+                              "text": "{{vayBusinessNameList.selectedOptionLabel}}",
+                              "key": "d8agt1pkx4",
+                              "rightColumn": 62,
+                              "textAlign": "LEFT",
+                              "widgetId": "4bsjithp02",
+                              "isVisible": false,
+                              "fontStyle": "",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "vayBusinessNameList",
+                              "isFilterable": false,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Select",
+                              "iconSVG": "/static/media/icon.bd99caba.svg",
+                              "labelText": "",
+                              "topRow": 18,
+                              "bottomRow": 23,
+                              "parentRowSpace": 10,
+                              "type": "DROP_DOWN_WIDGET",
+                              "serverSideFiltering": false,
+                              "hideCard": false,
+                              "defaultOptionValue": "",
+                              "selectionType": "SINGLE_SELECT",
+                              "animateLoading": true,
+                              "parentColumnSpace": 11.9482421875,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 12,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "options"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "options": "[\n  {\n    \"label\": {{JSON.parse(vayGSTinEnrichAPI.data.data).lgnm}},\n    \"value\": \"longName\"\n  },\n  {\n    \"label\": {{JSON.parse(vayGSTinEnrichAPI.data.data).tradeNam}},\n    \"value\": \"shortName\"\n  },\n  {\n    \"label\": \"Name from PAN\",\n    \"value\": \"Name from PAN\"\n  }\n]",
+                              "placeholderText": "Select Name",
+                              "isDisabled": false,
+                              "key": "pcy65z4eim",
+                              "isRequired": true,
+                              "rightColumn": 33,
+                              "widgetId": "6yvbg33eip",
+                              "isVisible": "{{vayGSTNInput.isValid}}",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false
+                            },
+                            {
+                              "boxShadow": "NONE",
+                              "widgetName": "IconButton1",
+                              "onClick": "{{navigateTo('New Application', {})}}",
+                              "buttonColor": "#264283",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634a.svg",
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.0078125,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 59,
+                              "dynamicBindingPathList": [],
+                              "isDisabled": false,
+                              "key": "llbrcvv24l",
+                              "rightColumn": 63,
+                              "iconName": "arrow-left",
+                              "widgetId": "zb1dasf7mq",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "CIRCLE",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "widgetName": "vayGSTNRespConstitution",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "{{JSON.parse(vayGSTinEnrichAPI.data.data).ctb}}",
+                              "key": "lj31ahxk91",
+                              "rightColumn": 63,
+                              "textAlign": "LEFT",
+                              "widgetId": "hjidasajaf",
+                              "isVisible": "{{vayGSTNInput.isValid}}",
+                              "fontStyle": "",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text5",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 34,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Constitution Type:",
+                              "key": "lj31ahxk91",
+                              "rightColumn": 47,
+                              "textAlign": "LEFT",
+                              "widgetId": "dw6sz9ajw4",
+                              "isVisible": "{{vayGSTNInput.isValid}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "widgetName": "FormButton2",
+                              "onClick": "{{storeValue('customerOID','00cb5761')}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 39,
+                              "bottomRow": 43,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 26,
+                              "dynamicBindingPathList": [],
+                              "text": "Reset",
+                              "key": "d5bjea65lg",
+                              "rightColumn": 42,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "u2rycijwnf",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "widgetName": "vayIndCreateApplication",
+                              "onClick": "{{(function() {\nstoreValue(\"vayApplicationGSTN\", vayGSTNInput.text);\nstoreValue(\"vayApplicationIndConstitutionType\", vayGSTNRespConstitution.text)\n\t\n//if((appsmith.store.customerOID == \"\") && (appsmith.store.customerID == \"\") && (appsmith.store.customerParticipantID == \"\"))\n//{\n//storeValue(\"customerOID\",  [...Array(8)].map(() => Math.floor(Math.random() * 16).toString(16)).join(''));\n\n//storeValue(\"customerID\",  [...Array(8)].map(() => Math.floor(Math.random() * 17).toString(17)).join(''));\n\n//storeValue(\"customerParticipantID\",  toreValue(\"customerParticipadom() * 18).toString(18)).join(''));\n\t\nif(vayGSTNRespConstitution.text == \"LLP\" || vayGSTNRespConstitution.text == \"Public Limited Company\" || vayGSTNRespConstitution.text == \"LLC\" ){\n\t{{\n\t const response =  createCustomer.run(); \n\t if(!!response){\n\t\t showAlert('Customer application record created')\n\t }else{\n\t\t  showAlert('Customer application record creation failed...Contact Admin')\n\t }\t\n\t}}\n\t \n\t return navigateTo('India - Corporate',{});\n\t}\n\telse{\n\t const response =  createCustomer.run();\n\t if(!!response){\n\t\t showAlert('Customer application record created')\n\t }else{\n\t\t  showAlert('Customer application record creation failed...Contact Admin')\n\t }\t\n\t return navigateTo('India - Non Corporate',{});\n\t}\t\n})()\n\n}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 39,
+                              "bottomRow": 43,
+                              "tooltip": "",
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 44,
+                              "dynamicBindingPathList": [],
+                              "text": "Create Application",
+                              "key": "d5bjea65lg",
+                              "rightColumn": 60,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "bkqoh88swx",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": true,
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "widgetName": "Text6",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "My GSTN is",
+                              "key": "9qcd21xzla",
+                              "rightColumn": 12,
+                              "textAlign": "LEFT",
+                              "widgetId": "bzshqgm3px",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text7",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 18,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Business Name",
+                              "key": "9qcd21xzla",
+                              "rightColumn": 12,
+                              "textAlign": "LEFT",
+                              "widgetId": "kum9s7vk7q",
+                              "isVisible": "{{vayGSTNInput.isValid}}",
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text8",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 23,
+                              "bottomRow": 34,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 11.3125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 12,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "{{JSObject1.getAddrLn(appsmith.store.vayGSTRegAddrr1, true) }}{{JSObject1.getAddrLn(appsmith.store.vayGSTRegAddrr2, true)}} {{JSObject1.getAddrLn(appsmith.store.vayGSTRegCity, true)}}{{JSObject1.getAddrLn(appsmith.store.vayGSTRegDistrict, true)}} {{JSObject1.getAddrLn(appsmith.store.vayGSTRegState, true)}} {{JSObject1.getAddrLn(appsmith.store.vayGSTRegCountry, true)}} {{JSObject1.getAddrLn(appsmith.store.vayGSTRegPinCode)}}",
+                              "key": "k14ukj8wmh",
+                              "rightColumn": 33,
+                              "textAlign": "LEFT",
+                              "widgetId": "y6hwic25ub",
+                              "isVisible": "{{vayGSTNInput.isValid && !!vayGSTinEnrichAPI.data.data && !!JSON.parse(vayGSTinEnrichAPI.data.data).pradr.addr}}",
+                              "fontStyle": "",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            },
+                            {
+                              "widgetName": "Text10",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 36,
+                              "bottomRow": 53,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "SCROLL",
+                              "parentColumnSpace": 13.0078125,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "text"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "{{appsmith.store.customerOID}}\n{{vayGSTNRespConstitution.text}}",
+                              "key": "wippguyoj3",
+                              "rightColumn": 17,
+                              "textAlign": "LEFT",
+                              "widgetId": "0rwxukobts",
+                              "isVisible": false,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "hnyltvrcpu",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "fontSize": "PARAGRAPH"
+                            }
+                          ],
+                          "key": "51vt6bs3i2"
+                        }
+                      ],
+                      "borderWidth": "0",
+                      "key": "15iwc844ft",
+                      "backgroundColor": "white",
+                      "rightColumn": 63,
+                      "widgetId": "bh6f2apg4m",
+                      "isVisible": true,
+                      "parentId": "wfyenumhnh",
+                      "renderMode": "CANVAS",
+                      "isLoading": false
+                    }
+                  ],
+                  "key": "8trb38urdk"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "wjid7rj6aa",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 64,
+              "widgetId": "jrpjvoz8mw",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            },
+            {
+              "widgetName": "Text9",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 71,
+              "bottomRow": 93,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "SCROLL",
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "{{JSON.parse(vayGSTinEnrichAPI.data.data).stj}}",
+              "key": "x7ytk7vvxc",
+              "rightColumn": 39,
+              "textAlign": "LEFT",
+              "widgetId": "ksip1arn7u",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "PARAGRAPH"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Application Form - India_QueryselectUnamePwd",
+              "name": "QueryselectUnamePwd",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Canvas1",
+          "Canvas2",
+          "FormButton2",
+          "IconButton1",
+          "IconButton2",
+          "MainContainer",
+          "Text10",
+          "Text5",
+          "Text5Copy",
+          "Text6",
+          "Text7",
+          "Text8",
+          "Text9",
+          "vayBusinessNameList",
+          "vayGSTNInput",
+          "vayGSTNRepsBusinessInfo",
+          "vayGSTNRespBusinessName",
+          "vayGSTNRespConstitution",
+          "vayHelperText2",
+          "vayIndCreateApplication",
+          "vayIndTaxDetails",
+          "vayLogo",
+          "vayManIndBusinessNameList",
+          "vayManIndGSTN",
+          "vayNewApplicationPageContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Application Form - India",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "61d08dd5a4437918c01f9d15_61d14a86a4437918c01f9ffb"
+}

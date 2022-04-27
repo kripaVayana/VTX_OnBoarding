@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Application Form - India",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetAddrLn: (val, addComma = false) => !!val ? `${val}${addComma ? ', ' : ''}` : '',\n\tupdateAddress: (address) => {\n\t\tif(address) {\n\t\t\tstoreValue('vayGSTRegAddrr1', this.getAddrLn(address.bno, true) + this.getAddrLn(address.bnm));\n\t\t\tstoreValue('vayGSTRegAddr2', this.getAddrLn(address.st, true) + this.getAddrLn(address.loc));\n\t\t\tstoreValue('vayGSTRegCity', this.getAddrLn(address.city));\n\t\t\tstoreValue('vayGSTRegDistrict', '');\n\t\t\tstoreValue('vayGSTRegState', this.getAddrLn(address.stcd));\n\t\t\tstoreValue('vayGSTRegCountry', 'India');\n\t\t\tstoreValue('vayGSTRegPinCode', this.getAddrLn(address.pncd));\n\t\t} else {\n\t\t\tstoreValue('vayGSTRegAddrr1','GSTRegAddrr Line 1');\n\t\t\tstoreValue('vayGSTRegAddrr2','GSTRegAddrr Line 2');\n\t\t\tstoreValue('vayGSTRegCity','GSTRegAddrr City');\n\t\t\tstoreValue('vayGSTRegDistrict','GSTRegAddrr District');\n\t\t\tstoreValue('vayGSTRegState','GSTRegAddrr State');\n\t\t\tstoreValue('vayGSTRegCountry','GSTRegAddrr Country');\n\t\t\tstoreValue('vayGSTRegPinCode','GSTRegAddrr Pincode');\t\n\t\t}\n\t},\n\tonfetchSuccess: () => {\n\t\t\tshowAlert(`Data available: ${JSON.parse(vayGSTinEnrichAPI.data.data).pr}`);\n\t\t\tthis.updateAddress(JSON.parse(vayGSTinEnrichAPI.data.data)?.pradr?.addr);\n\t},\n\tfetchGSTINDetails: async () => {\n\t\tshowAlert(`In fetchGSTINDetails`);\n\t\tawait vayGSTinEnrichAPI.run(this.onfetchSuccess, async (error) => {\n\t\t\tshowAlert(`Error content: ${JSON.stringify(error)}`);\n\t\t\tif(vayGSTinEnrichAPI.data?.error?.message === 'err-expired-token') {\n\t\t\t\tawait APILoginGetAuthToken.run().then(async () => {\n\t\t\t\t\tshowAlert(`Token refreshed successfully!`);\n\t\t\t\t\tawait vayGSTinEnrichAPI.run(this.onfetchSuccess, undefined, undefined);\n\t\t\t\t});\n\t\t\t}\n\t\t});\n\t},\n\tonGSTINInputChange: async () => {\n\t\t\n\t\tif(!vayGSTNInput.isValid) {\n\t\t\treturn;\n\t\t}\n\n\t\tif(!APILoginGetAuthToken.data?.data?.token) {\n\t\t\t\n\t\t\tshowAlert('Token does not exists');\n\n\t\t\treturn APILoginGetAuthToken.run().then(this.fetchGSTINDetails);\n\t\t} else {\n\t\t\tshowAlert('Token exists');\n\t\t\tawait this.fetchGSTINDetails();\n\t\t}\n\t}\n}",
+    "variables": []
+  },
+  "id": "Application Form - India_JSObject1",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_61f3acb413ce3d57dc7ba2a9"
+}

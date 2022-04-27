@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSBankAccountcurrencyDetails",
+    "pageId": "TestCurrencies",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\t\n\tmyFungenerateOID: () => {\n\t\treturn Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1).concat('OID');\n\t}\t,\n\tinsertIfNotExist: async (currencyCode) => {\n\t\n\t\tconst params= { currencyCode };\t\n\t\treturn selectCurrentCurrencies.run(undefined, undefined, params).then((response) => {\n\t\t\tif(response.length === 1) {\n\t\t\t\t\tshowAlert(`Not Insert: ${currencyCode}`);\n\t\t\t\t\treturn;\n\t\t\t} else {\n\t\t\t\t\treturn insertCurrencyBnkAccInfo.run(undefined, undefined, params).then(async (response) => {\n\t\t\t\t\t\tif(response.length === 1) {\n\t\t\t\t\t\t\tshowAlert(`Inserted: ${currencyCode}`);\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tshowAlert(`Incorrect insertion: ${currencyCode}`);\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t}\n\t\t});\n\t},\n\tremoveIfExist: async (currencyCode) => {\n\n\t\tconst params= { currencyCode };\t\t\n\t\treturn deleteCurrency.run(undefined, undefined, params);\n\t}, \n\tmyFunCreateUpdateBankAccountcurrencyDetails:  async ()=> {\n\t\t\tstoreValue('vayCCY',vayMultipleCurrencySelection.selectedValues);\n\t\t\n\t\t\tfor (var i = 0; i < vayMultipleCurrencySelection.options.length; i++) {\n\t\t\t\tconst currencyCode = vayMultipleCurrencySelection.options[i].value;\n\t\t\t\tif(vayMultipleCurrencySelection.selectedValues.includes(currencyCode)) {\n\t\t\t\t\tawait this.insertIfNotExist(currencyCode);\t\t\t\n\t\t\t\t} else {\n\t\t\t\t\tawait this.removeIfExist(currencyCode);\n\t\t\t\t}\n\t\t\t}\t\t\n\t\t\tawait selectCurrentSelectedCurrency.run();\t\t\t\n\t\t\tnavigateTo('Bank Account Information List', {});\n}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "TestCurrencies_JSBankAccountcurrencyDetails",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_6250f53b4eae7255ccdd4ff6"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Entity KYC Foreign Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tdownloadFile: () => {\n\t\t// TODO:\n\t\tDownloadFile.run(()=> {\n\t\t\t\tdownload(atob(DownloadFile.data.fileData), 'sample.pdf');\n\t\t\t})\n\t}\n};\n",
+    "variables": []
+  },
+  "id": "Entity KYC Foreign Copy_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_625d13ddb8cddf1c5a43c556"
+}

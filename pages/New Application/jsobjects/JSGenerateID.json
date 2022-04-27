@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSGenerateID",
+    "pageId": "New Application",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tcustomerOID: () => {\n\t\t//write code here\n\t\treturn [...Array(8)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');\t\n\t\t//storeValue('currentOID',Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1).concat('ODI'))\n\t\t//return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1).concat('');\n\t}\t,\n\tmyFungenerateCOID: () => {\n\t\t//write code here\n\t\treturn Math.floor((1 + Math.random()) * 0x10000).toString(17).substring(1).concat('COID');\n\t},\t\n\tmyFungenerateCPID: () => {\n\t\t//write code here\n\t\treturn Math.floor((1 + Math.random()) * 0x10000).toString(18).substring(1).concat('CPID');\n\t\t}\n}\n",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "New Application_JSGenerateID",
+  "deleted": false,
+  "gitSyncId": "61e7dfda2f1944071bc7cde0_61f7f1408f79e106133fae89"
+}

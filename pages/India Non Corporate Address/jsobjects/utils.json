@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "India Non Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tclearComm1Addr: () => {\n\t\t  storeValue('vayNcComAddrr1', \"\");\n\t\t\tstoreValue('vayNcComAddrr2', \"\");\n\t\t\tstoreValue('vayNcComCity', \"\");\n\t\t\tstoreValue('vayNcComDistrict', \"\");\n\t\t\tstoreValue('vayNcComState', \"\");\n\t\t\tstoreValue('vayNcComCountry', \"\");\n\t\t\tstoreValue('vayNcComPinCode', \"\");\n\t},\n\tgenerateOID: (intValue) => {\n\t\treturn [...Array(8)].map(() => Math.floor(Math.random() * intValue).toString(intValue)).join('')\n\t},\n\tmyfunsetCINAddr : () => {\n\t\tstoreValue('vayCrComAddrr1',appsmith.store.vayCinRegAddrr1)\n\t\t \n\t\t\n\t\t\tstoreValue('vayCrComAddrr2',appsmith.store.vayCinRegAddrr2)\n\t\t\tstoreValue('vayCrComCity',appsmith.store.vayCinRegCity)\n\t\t\tstoreValue('vayCrComDistrict'\t,appsmith.store.vayCinRegDistrict)\n\t\t\t\t\t\t\t\t storeValue('vayCrComState',appsmith.store.vayCinRegState)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComCountry',appsmith.store.vayCinRegCountry)\n\t\t\t\t\t\t\t\t \tstoreValue('vayCrComPinCode',appsmith.store.vayCinRegPinCode)\n\t\t\n\t},\n\tmyfunsetRegAddrtoGSTAddr : () => {\n\t\t\tstoreValue('vayNcRegAddrr1',appsmith.store.vayGSTRegAddrr1)\n\t\t\tstoreValue('vayNcRegAddrr2',appsmith.store.vayGSTRegAddrr2)\n\t\t\tstoreValue('vayNcRegCity',appsmith.store.vayGSTRegCity)\n\t\t\tstoreValue('vayNcRegDistrict'\t,appsmith.store.vayGSTRegDistrict)\n\t\t\tstoreValue('vayNcRegState',appsmith.store.vayGSTRegState)\n\t\t\tstoreValue('vayNcRegCountry',appsmith.store.vayGSTRegCountry)\n\t\t\tstoreValue('vayNcRegPinCode',appsmith.store.vayGSTRegPinCode)\n\t\t\n\t},\n\tmyfunsetCommAddrtoGSTAddr : () => {\n\t\tstoreValue('vayNcComAddrr1',appsmith.store.vayGSTRegAddrr1)\n\t\tstoreValue('vayNcComAddrr2',appsmith.store.vayGSTRegAddrr2)\n\t\tstoreValue('vayNcComCity',appsmith.store.vayGSTRegCity)\n\t\t\tstoreValue('vayNcComDistrict'\t,appsmith.store.vayGSTRegDistrict)\n\t\t\t\t\t\t\t\t storeValue('vayNcComState',appsmith.store.vayGSTRegState)\n\t\t\t\t\t\t\t\t \tstoreValue('vayNcComCountry',appsmith.store.vayGSTRegCountry)\n\t\t\t\t\t\t\t\t \tstoreValue('vayNcComPinCode',appsmith.store.vayGSTRegPinCode)\n\t\t\n\t},\n\tmyfunsetNCAddrtoCommAddr: () => {\n\t\t\tthis.clearComm1Addr();\n\t\t  storeValue('vayNcComAddrr1', appsmith.store.vayNcRegAddrr1);\n\t\t\tstoreValue('vayNcComAddrr2', appsmith.store.vayNcRegAddrr2);\n\t\t\tstoreValue('vayNcComCity', appsmith.store.vayNcRegCity);\n\t\t\tstoreValue('vayNcComDistrict', appsmith.store.vayNcRegDistrict);\n\t\t\tstoreValue('vayNcComState', appsmith.store.vayNcRegState);\n\t\t\tstoreValue('vayNcComCountry', appsmith.store.vayNcRegCountry);\n\t\t\tstoreValue('vayNcComPinCode', appsmith.store.vayNcRegPinCode);\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "India Non Corporate Address_utils",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_6200cf631cafa2361db3d115"
+}

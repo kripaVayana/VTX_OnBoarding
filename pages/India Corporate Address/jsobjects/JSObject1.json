@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "India Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tonClick: async () => {\n\t\t\tif (vayCrSelectedComAddr.text == \"      \"){\n\t\t\t\tshowAlert('We need your communication Address')\n\t\t}\n\t\telse {\n\t\t\tshowAlert('else');\n\t\t // return \n\t\tawait isCustomerAddrExists.run();\n\t\t  // (response) => {\n\t\t  \t//if(response.count > 0){\n\t\t\t\t//if(response.length > 0 && response != null && response.customerEntityOIDForAddress !=\"\"){ \n\t\t\t\t showAlert(isCustomerAddrExists.data);\n\t\t\t\t// if(!!response && !!response.customerEntityOIDForAddress){\n\t\t\t\t//\t storeValue('customerEntityOIDForAddress',response.customerEntityOIDForAddress)\n\t\t\t\t\t//await updateCustomerDetailAddCommAdd.run((response) => showAlert('Customer Details Updated'))\n\t\t  //\t}else {\n\t\t\t\t\t//await createCustomerAddressDetails.run((response) => {showAlert('Customer Details Created')});\n\t\t  //\t}\n\t\t\t\t \t//navigateTo('Currencies',{\"fromPage\":\"India Corporate Address\"});\n\t//\t   }\n\t    //);\n\t\t  \n\t\t}\n\t},\n\tdummy:() => {\n\t\t{{Number()}}\n\t},\n\tmyFunValidMobilenumber: () => {\n\t\t\n\t\t\t\tif(Input1Copy.text.length == 10)\n\t\t\t\t\treturn true;\n\t\t\t\telse\n\t\t\t\t\treturn false;\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "India Corporate Address_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_62525da44eae7255ccdd5032"
+}

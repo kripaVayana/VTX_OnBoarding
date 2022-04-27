@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "noncorpCustomerCreateAndUpdate",
+    "pageId": "India Non Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tonClick: () => {\n\t\t\tif (vayIndNcCommunicationAddress.text == \"      \" || vayIndNcRegisteredAddress == \"      \" ){\n\t\t\t\tshowAlert('We need your communication and registration Address')\n\t\t}\n\t\telse {\n\t\t\t\n\t\t\t\tif(Table1.tableData.length >0)\n\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\t\tupdateNonCorpCustomerDetailAdd.run();\n\t\t\t\t\t\t\t\t\tshowAlert('Customer Details Updated')\t\t\t\t\t\n\t\t\t\t}\n\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tcreateNonCorpCustomerDetailAdd.run() \n\t\t\t\t\tshowAlert('Customer Details Created');\n\t\t\t\t}\n\n\t\t\t\t \tnavigateTo('Currencies',{\"fromPage\":\"India Non Corporate Address\"});\t\t\t \n\t\t}\t  \n\t\t\n\t},\n\tdummy:() => {\n\t\t{{Number()}}\n\t}\n}\n",
+    "variables": []
+  },
+  "id": "India Non Corporate Address_noncorpCustomerCreateAndUpdate",
+  "deleted": false,
+  "gitSyncId": "61e6589e69c0e21f279fec21_6200cf5a1cafa2361db3d111"
+}
