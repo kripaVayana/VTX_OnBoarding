@@ -774,21 +774,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Entity KYC Foreign_ListKYCDocQuery",
-              "name": "ListKYCDocQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.BucketName",
-                "appsmith.store.customerOID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "widgetNames": [
           "Canvas1",
           "Canvas2",
