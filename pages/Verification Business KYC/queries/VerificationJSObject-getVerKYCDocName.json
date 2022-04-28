@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getIndPrefix",
-    "fullyQualifiedName": "VerificationJSObject.getIndPrefix",
+    "name": "getVerKYCDocName",
+    "fullyQualifiedName": "VerificationJSObject.getVerKYCDocName",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Individual KYC",
+    "pageId": "Verification Business KYC",
     "collectionId": "Verification Business KYC_VerificationJSObject",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn appsmith.store.customerJID ==='IN' ? 'IndIndiaKYC' : 'IndFgnKYC';\n\t}",
+      "body": "() => {\n\t\tconst meta = selectVeriStatus.selectedOptionValue ? `${selectVeriStatus.selectedOptionValue}__`: '';\n\t\treturn Table1.selectedRow.verFilePrefix + '__' + meta + FilePicker1.files[0].name;\n\t}",
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn appsmith.store.customerJID ==='IN' ? 'IndIndiaKYC' : 'IndFgnKYC';\n\t}"
+      "() => {\n\t\tconst meta = selectVeriStatus.selectedOptionValue ? `${selectVeriStatus.selectedOptionValue}__`: '';\n\t\treturn Table1.selectedRow.verFilePrefix + '__' + meta + FilePicker1.files[0].name;\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Individual KYC_VerificationJSObject.getIndPrefix",
+  "id": "Verification Business KYC_VerificationJSObject.getVerKYCDocName",
   "deleted": false,
-  "gitSyncId": "624b155c4eae7255ccdd4d5d_626938c7a70a1c6b1d2cc50b"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626a7d9dcdb6905ade09ff92"
 }

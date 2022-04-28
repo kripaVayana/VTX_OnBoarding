@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Individual KYC",
+    "pageId": "Verification Business KYC",
     "collectionId": "Verification Business KYC_VerificationJSObject",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Individual KYC_VerificationJSObject.downloadFile",
+  "id": "Verification Business KYC_VerificationJSObject.downloadFile",
   "deleted": false,
   "gitSyncId": "624b155c4eae7255ccdd4d5d_62661335b8cddf1c5a43c7e6"
 }

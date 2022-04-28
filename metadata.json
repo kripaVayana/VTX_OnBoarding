@@ -2206,6 +2206,26 @@
       "unpublishedUserSetOnLoad": true,
       "publishedUserSetOnLoad": true
     },
+    "Verification Business KYC_VerificationJSObject.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_VerificationJSObject.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_VerificationJSObject.getVerKYCDocName": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_VerificationJSObject.getVerTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_VerificationJSObject.onSaveAndUpdateVer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Verification Business KYC_downloadFileQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -2223,18 +2243,6 @@
       "publishedUserSetOnLoad": false
     },
     "Verification Individual KYC_Query1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Verification Individual KYC_VerificationJSObject.downloadFile": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Verification Individual KYC_VerificationJSObject.getIndPrefix": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Verification Individual KYC_VerificationJSObject.getTableData": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },

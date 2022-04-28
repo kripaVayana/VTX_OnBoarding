@@ -215,6 +215,7 @@
                               "widgetName": "Table1",
                               "defaultPageSize": 0,
                               "columnOrder": [
+                                "customColumn1",
                                 "OID",
                                 "CUSTOMER_ID",
                                 "CUSTOMER_PARTICIPANT_ID",
@@ -259,8 +260,7 @@
                                 "LAST_UPDATE_DATE_TIME",
                                 "LOCK_SESSION_OID",
                                 "LOCK_DATE_TIME",
-                                "CUSTOMER_REGISTRARNAME",
-                                "customColumn1"
+                                "CUSTOMER_REGISTRARNAME"
                               ],
                               "isVisibleDownload": false,
                               "dynamicPropertyPathList": [],
