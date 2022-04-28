@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -649,7 +649,8 @@
                               "version": 1,
                               "parentId": "gjd0j7dnfr",
                               "renderMode": "CANVAS",
-                              "isLoading": false
+                              "isLoading": false,
+                              "alignment": "left"
                             },
                             {
                               "widgetName": "vayCrspBankSwiftCodeCopy",
@@ -3027,8 +3028,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.vayCurrentCcySymbol",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.vayCurrentCcySymbol"
               ],
               "timeoutInMillisecond": 10000
             }

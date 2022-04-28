@@ -259,6 +259,7 @@
                                 "LAST_UPDATE_DATE_TIME",
                                 "LOCK_SESSION_OID",
                                 "LOCK_DATE_TIME",
+                                "CUSTOMER_REGISTRARNAME",
                                 "customColumn1"
                               ],
                               "isVisibleDownload": false,
@@ -420,6 +421,9 @@
                                 },
                                 {
                                   "key": "primaryColumns.customColumn1.buttonLabel"
+                                },
+                                {
+                                  "key": "primaryColumns.CUSTOMER_REGISTRARNAME.computedValue"
                                 }
                               ],
                               "leftColumn": 0,
@@ -1237,6 +1241,24 @@
                                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Edit'))}}",
                                   "onClick": "{{Helper.editApplicationFormData()}}",
                                   "textColor": "#264283"
+                                },
+                                "CUSTOMER_REGISTRARNAME": {
+                                  "index": 44,
+                                  "width": 150,
+                                  "id": "CUSTOMER_REGISTRARNAME",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textColor": "#264283",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "CUSTOMER_REGISTRARNAME",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_REGISTRARNAME))}}"
                                 }
                               },
                               "delimiter": ",",

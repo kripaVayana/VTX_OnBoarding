@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1539,7 +1539,7 @@
                               "inputType": "TEXT",
                               "isDisabled": "{{appsmith.store.viewOnly}}",
                               "key": "qh09xku9b2",
-                              "isRequired": false,
+                              "isRequired": true,
                               "rightColumn": 62,
                               "widgetId": "37c1n4hv6x",
                               "isVisible": true,
@@ -1549,6 +1549,7 @@
                               "parentId": "mu14vd3dbw",
                               "renderMode": "CANVAS",
                               "isLoading": false,
+                              "regex": "^[1-9][0-9]{5}$",
                               "iconAlign": "left",
                               "defaultText": "{{Number(selectCurrentRecord.data[0].CUSTOMER_KEY_PERSON_ADDRESS_ZIP).toString()}}"
                             },
@@ -2833,6 +2834,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Key Person Add India_getKeyPersonCurrencyLimit",
+              "name": "getKeyPersonCurrencyLimit",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.editKeyPersonOID"
+              ],
+              "timeoutInMillisecond": 50000
+            },
+            {
               "id": "Key Person Add India_selectActiveCountry",
               "name": "selectActiveCountry",
               "confirmBeforeExecute": false,
@@ -2843,26 +2854,14 @@
           ],
           [
             {
-              "id": "Key Person Add India_getKeyPersonCurrencyLimit",
-              "name": "getKeyPersonCurrencyLimit",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.editKeyPersonOID"
-              ],
-              "timeoutInMillisecond": 50000
-            }
-          ],
-          [
-            {
               "id": "Key Person Add India_selectCurrentRecord",
               "name": "selectCurrentRecord",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "'Key Person India'",
-                "appsmith.store.editKeyPersonOID",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.editKeyPersonOID"
               ],
               "timeoutInMillisecond": 10000
             }
