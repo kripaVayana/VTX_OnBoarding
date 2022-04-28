@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue('BucketName','kyc');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t}",
+      "body": "() => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue(\"userRole\",\"Maker\")\n\tstoreValue('BucketName','sandbox-itfs-kyc-docs');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,8 +33,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue('BucketName','kyc');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t}",
-      "if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue('BucketName','kyc');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}"
+      "() => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue(\"userRole\",\"Maker\")\n\tstoreValue('BucketName','sandbox-itfs-kyc-docs');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t}",
+      "if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue(\"userRole\",\"Maker\")\n\tstoreValue('BucketName','sandbox-itfs-kyc-docs');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

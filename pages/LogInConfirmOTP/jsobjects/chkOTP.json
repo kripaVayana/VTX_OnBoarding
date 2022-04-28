@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tchkOTPfun: () => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue('BucketName','kyc');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t},\n\tmyFun2: () => {\n\t\t//write code here\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tchkOTPfun: () => {\n\t\t//write code here\n\t\t{{if(appsmith.store.OTPval==txtConfirmOTP.text)\n{\n\tstoreValue(\"userRole\",\"Maker\")\n\tstoreValue('BucketName','sandbox-itfs-kyc-docs');\n\tstoreValue('FilePath','kycfiles');\n\tstoreValue('MaxFiles',1);\n\tstoreValue('MaxFileSize',5);\n\tshowAlert('Login Successful');\n\tnavigateTo('Homepage');\n}\nelse\n{\n\tshowAlert('Incorrect OTP')\n}\n}}\n\t},\n\tmyFun2: () => {\n\t\t//write code here\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
