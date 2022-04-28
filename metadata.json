@@ -1838,6 +1838,10 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "LogIn_LoginBasedOn_SelectedRole.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "LogIn_SendEmailTo": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false

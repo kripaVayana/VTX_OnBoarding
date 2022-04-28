@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "LoginBasedOn_SelectedRole",
+    "pageId": "LogIn",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async() => {\n\tawait chkUserExist.run();\n//showAlert(chkUserExist.run())\n{{ if(chkUserExist.data.data.userPresent)\n{\n\tstoreValue('username',txtUsername.text);\n\t\tnavigateTo('LogInByPassword');\n\t}\n else\n\t {\n\t\t     var digits = '0123456789';\n    let OTP = '';\n    for (let i = 0; i < 4; i++ ) {\n        OTP += digits[Math.floor(Math.random() * 10)];\n    }    \n\t\t storeValue('OTPval',OTP);\n\t\t SendEmailTo.run();\n\t\t storeValue('username',txtUsername.text);\n\t\t showAlert('OTP Generated and sent to the Email');\n\t\t navigateTo('LogInConfirmOTP',{\"userName\":txtUsername.text});\n\t }\n \n }}\t},\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "LogIn_LoginBasedOn_SelectedRole",
+  "deleted": false,
+  "gitSyncId": "6269675cea7c17153e7b7be9_626973ffea7c17153e7b7ec7"
+}

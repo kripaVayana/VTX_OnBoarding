@@ -215,20 +215,20 @@
                               "widgetName": "Table1",
                               "defaultPageSize": 0,
                               "columnOrder": [
-                                "customColumn1",
                                 "OID",
                                 "CUSTOMER_ID",
-                                "CUSTOMER_COUNTRY_CODE",
-                                "CUSTOMER_BUSINESS_CONST_TYPE",
+                                "CUSTOMER_PARTICIPANT_ID",
                                 "CUSTOMER_APPLICANT_NAME",
                                 "CUSTOMER_APPLICANT_MOBILE",
                                 "CUSTOMER_APPLICANT_EMAIL",
                                 "CUSTOMER_PARTICIPANT_TYPE",
                                 "CUSTOMER_COUNTRY_ID",
+                                "CUSTOMER_COUNTRY_CODE",
                                 "CUSTOMER_REGISTERED_ENTITY_INDFOREIGN",
                                 "CUSTOMER_REGISTERED_ENTITY_IND_CORP_NOCORP",
                                 "CUSTOMER_BUSINESS_GSTN_DESCTYPE",
                                 "CUSTOMER_BUSINESS_GSTN_DESC",
+                                "CUSTOMER_BUSINESS_CONST_TYPE",
                                 "CUSTOMER_BUSINESS_NAME",
                                 "CUSTOMER_BUSINESS_TAX_JD",
                                 "CUSTOMER_BUSINESS_TAX_TYPE",
@@ -259,8 +259,7 @@
                                 "LAST_UPDATE_DATE_TIME",
                                 "LOCK_SESSION_OID",
                                 "LOCK_DATE_TIME",
-                                "CUSTOMER_REGISTRARNAME",
-                                "CUSTOMER_PARTICIPANT_ID"
+                                "customColumn1"
                               ],
                               "isVisibleDownload": false,
                               "dynamicPropertyPathList": [],
@@ -421,9 +420,6 @@
                                 },
                                 {
                                   "key": "primaryColumns.customColumn1.buttonLabel"
-                                },
-                                {
-                                  "key": "primaryColumns.CUSTOMER_REGISTRARNAME.computedValue"
                                 }
                               ],
                               "leftColumn": 0,
@@ -1240,24 +1236,6 @@
                                   "labelColor": "#FFFFFF",
                                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Edit'))}}",
                                   "onClick": "{{Helper.editApplicationFormData()}}",
-                                  "textColor": "#264283"
-                                },
-                                "CUSTOMER_REGISTRARNAME": {
-                                  "index": 44,
-                                  "width": 150,
-                                  "id": "CUSTOMER_REGISTRARNAME",
-                                  "horizontalAlignment": "LEFT",
-                                  "verticalAlignment": "CENTER",
-                                  "columnType": "text",
-                                  "textSize": "PARAGRAPH",
-                                  "enableFilter": true,
-                                  "enableSort": true,
-                                  "isVisible": true,
-                                  "isDisabled": false,
-                                  "isCellVisible": true,
-                                  "isDerived": false,
-                                  "label": "CUSTOMER_REGISTRARNAME",
-                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_REGISTRARNAME))}}",
                                   "textColor": "#264283"
                                 }
                               },
