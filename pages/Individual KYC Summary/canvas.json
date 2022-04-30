@@ -1140,13 +1140,13 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "'Auth Signatory Person Foreign'",
+                "'Auth Signatory Person India'",
                 "'Entity Administrator Person'",
                 "'Key Person Foreign'",
-                "appsmith.store.vayApplicantJurisdiction",
                 "'Key Person India'",
-                "'Auth Signatory Person India'",
-                "'Auth Signatory Person Foreign'",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.vayApplicantJurisdiction"
               ],
               "timeoutInMillisecond": 100000
             }

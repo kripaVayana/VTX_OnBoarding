@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "onSaveAndUpdateVer",
-    "fullyQualifiedName": "VerificationJSObject.onSaveAndUpdateVer",
+    "name": "getListVerKYCDocPath",
+    "fullyQualifiedName": "JSObject1.getListVerKYCDocPath",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,15 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Business KYC",
-    "collectionId": "Verification Business KYC_VerificationJSObject",
+    "pageId": "Verification Individual KYC",
+    "collectionId": "Verification Individual KYC_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}",
+      "body": "() => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_VER_${JSObject1.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`",
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}"
+      "() => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_VER_${JSObject1.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_VerificationJSObject.onSaveAndUpdateVer",
+  "id": "Verification Individual KYC_JSObject1.getListVerKYCDocPath",
   "deleted": false,
-  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626d1df6cdb6905ade0a0050"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626bccb4cdb6905ade09fff4"
 }

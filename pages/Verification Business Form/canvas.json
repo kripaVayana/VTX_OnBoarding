@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -245,8 +245,8 @@
                               ],
                               "displayName": "Table",
                               "iconSVG": "/static/media/icon.db8a9cbd.svg",
-                              "topRow": 66,
-                              "bottomRow": 94,
+                              "topRow": 64,
+                              "bottomRow": 92,
                               "isSortable": true,
                               "parentRowSpace": 10,
                               "type": "TABLE_WIDGET",
@@ -285,7 +285,7 @@
                                   "key": "primaryColumns.Download.buttonLabel"
                                 }
                               ],
-                              "leftColumn": 50,
+                              "leftColumn": 1,
                               "primaryColumns": {
                                 "DocumentType": {
                                   "index": 0,
@@ -396,7 +396,7 @@
                               "delimiter": ",",
                               "key": "ouc9re3gtp",
                               "derivedColumns": {},
-                              "rightColumn": 64,
+                              "rightColumn": 62,
                               "textSize": "PARAGRAPH",
                               "widgetId": "co9cpojlfd",
                               "isVisibleFilters": true,
@@ -2794,15 +2794,27 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Verification Business Form_selectCurrentBankDetails",
               "name": "selectCurrentBankDetails",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Verification Business Form_ListKYCDocQuery",
+              "name": "ListKYCDocQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.BucketName",
+                "appsmith.store.FilePath",
                 "appsmith.store.customerOID"
               ],
               "timeoutInMillisecond": 10000
@@ -2845,20 +2857,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.customerOID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Verification Business Form_ListKYCDocQuery",
-              "name": "ListKYCDocQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.FilePath",
-                "appsmith.store.BucketName",
                 "appsmith.store.customerOID"
               ],
               "timeoutInMillisecond": 10000

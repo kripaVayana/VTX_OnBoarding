@@ -21,7 +21,7 @@
       "encodeParamsToggle": true,
       "body": "() => {\n        for (let key in appsmith.store) {\n            if (appsmith.store.hasOwnProperty(key)) {\n                const value = appsmith.store[key];\n                if (key == \"keyPersonData\") {\n                    storeValue(key, '')\n                }\n                console.log(key, value);\n            }\n        }\n    }",
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [

@@ -38,7 +38,7 @@
         },
         "list": {
           "prefix": {
-            "data": "{{appsmith.store.FilePath}}/{{appsmith.store.customerOID}}_{{VerificationJSObject.getIndPrefix()}}_{{appsmith.store.kycPersonOID}}"
+            "data": "{{JSObject1.getKYCDocListPath()}}"
           },
           "where": {
             "data": {
@@ -81,7 +81,7 @@
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "formData.bucket.data"
@@ -94,11 +94,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "VerificationJSObject.getIndPrefix()",
-      "appsmith.store.BucketName",
-      "appsmith.store.FilePath",
-      "appsmith.store.customerOID",
-      "appsmith.store.kycPersonOID"
+      "JSObject1.getKYCDocListPath()",
+      "appsmith.store.BucketName"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

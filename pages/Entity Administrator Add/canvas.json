@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -2366,8 +2366,8 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "'Entity Administrator Person'",
-                "appsmith.store.editKeyPersonOID",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.editKeyPersonOID"
               ],
               "timeoutInMillisecond": 10000
             }

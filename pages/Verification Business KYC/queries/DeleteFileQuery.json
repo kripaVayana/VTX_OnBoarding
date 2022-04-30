@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "amazons3-plugin",
   "unpublishedAction": {
-    "name": "ListKYCDocQuery",
+    "name": "DeleteFileQuery",
     "datasource": {
       "name": "MinioDatasource",
       "pluginId": "amazons3-plugin",
@@ -26,7 +26,7 @@
           "data": "{{appsmith.store.BucketName}}"
         },
         "command": {
-          "data": "LIST"
+          "data": "DELETE_FILE"
         },
         "create": {
           "dataType": {
@@ -38,7 +38,7 @@
         },
         "list": {
           "prefix": {
-            "data": "{{appsmith.store.FilePath}}/{{appsmith.store.customerOID}}_Entity"
+            "data": ""
           },
           "where": {
             "data": {
@@ -69,7 +69,7 @@
           }
         },
         "path": {
-          "data": ""
+          "data": "{{this.params.path}}"
         },
         "read": {
           "dataType": {
@@ -81,13 +81,13 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.bucket.data"
       },
       {
-        "key": "formData.list.prefix.data"
+        "key": "formData.path.data"
       }
     ],
     "isValid": true,
@@ -95,15 +95,14 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.BucketName",
-      "appsmith.store.FilePath",
-      "appsmith.store.customerOID"
+      "this.params.path"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_ListKYCDocQuery",
+  "id": "Verification Business KYC_DeleteFileQuery",
   "deleted": false,
-  "gitSyncId": "624b155c4eae7255ccdd4d5d_6263bec5b8cddf1c5a43c7ae"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626bdbfbcdb6905ade0a000f"
 }

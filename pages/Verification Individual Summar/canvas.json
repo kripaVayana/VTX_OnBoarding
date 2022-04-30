@@ -356,7 +356,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem) => currentItem.CUSTOMER_KEY_PERSON_FIRSTNAME+\" \"+ currentItem.CUSTOMER_KEY_PERSON_MIDDLENAME + \" \"+currentItem.CUSTOMER_KEY_PERSON_LASTNAME)}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_FIRSTNAME+\" \"+ currentItem.CUSTOMER_KEY_PERSON_MIDDLENAME + \" \"+currentItem.CUSTOMER_KEY_PERSON_LASTNAME;\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 13,
                           "textAlign": "LEFT",
@@ -417,7 +417,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem) => currentItem.CUSTOMER_KEY_PERSON_TYPE)}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_TYPE;\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 22,
                           "textAlign": "LEFT",
@@ -478,7 +478,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem) => currentItem.CUSTOMER_KEY_PERSON_IS_AUTH_SIGN=1?\"Yes\":\"No\")}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_IS_AUTH_SIGN=1?\"Yes\":\"No\";\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 26,
                           "textAlign": "LEFT",
@@ -539,7 +539,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem) => currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS)}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS;\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 42,
                           "textAlign": "LEFT",
@@ -583,7 +583,7 @@
                         },
                         "Button1": {
                           "widgetName": "Button1",
-                          "onClick": "{{vayKeyPersonIndList.listData.map((currentItem) => \nstoreValue('editKeyPersonOID',currentItem.OID);\nfetchAuthSignatoryData.onClick()\n)}}",
+                          "onClick": "{{JSObject1.onEditClick(currentItem.OID)}}",
                           "buttonColor": "#264283",
                           "dynamicPropertyPathList": [
                             {
@@ -669,7 +669,7 @@
                             }
                           ],
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem) => currentItem.OID)}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.OID;\n              })();\n            })}}",
                           "key": "3lkz81ywn9",
                           "rightColumn": 52,
                           "textAlign": "LEFT",
@@ -685,12 +685,12 @@
                         }
                       },
                       "widgetName": "vayKeyPersonIndList",
-                      "listData": "{{getAuthSignatorySummary.data}}",
+                      "listData": "{{fetchIndividualsQuery.data}}",
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17.svg",
                       "topRow": 10,
-                      "bottomRow": 34,
+                      "bottomRow": 48,
                       "parentRowSpace": 10,
                       "type": "LIST_WIDGET",
                       "hideCard": false,
@@ -706,6 +706,21 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "listData"
+                        },
+                        {
+                          "key": "template.Text2.text"
+                        },
+                        {
+                          "key": "template.Text3.text"
+                        },
+                        {
+                          "key": "template.Text4.text"
+                        },
+                        {
+                          "key": "template.Text5.text"
+                        },
+                        {
+                          "key": "template.Text10.text"
                         }
                       ],
                       "gridType": "vertical",
@@ -1014,7 +1029,7 @@
                                     },
                                     {
                                       "widgetName": "Button1",
-                                      "onClick": "{{\nstoreValue('editKeyPersonOID',currentItem.OID);\nfetchAuthSignatoryData.onClick()\n}}",
+                                      "onClick": "{{JSObject1.onEditClick(currentItem.OID)}}",
                                       "buttonColor": "#264283",
                                       "dynamicPropertyPathList": [
                                         {
@@ -1247,7 +1262,20 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Verification Individual Summar_fetchIndividualsQuery",
+              "name": "fetchIndividualsQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "widgetNames": [
           "Button1",
           "Button2",

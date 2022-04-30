@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "onSaveAndUpdateVer",
-    "fullyQualifiedName": "VerificationJSObject.onSaveAndUpdateVer",
+    "fullyQualifiedName": "JSObject1.onSaveAndUpdateVer",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Business KYC",
-    "collectionId": "Verification Business KYC_VerificationJSObject",
+    "pageId": "Verification Individual KYC",
+    "collectionId": "Verification Individual KYC_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}",
+      "body": "async () => {\n\t\tawait insertVerStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerStatusData.run();\n\t\tawait resetWidget('Form1', true);\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}"
+      "async () => {\n\t\tawait insertVerStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerStatusData.run();\n\t\tawait resetWidget('Form1', true);\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_VerificationJSObject.onSaveAndUpdateVer",
+  "id": "Verification Individual KYC_JSObject1.onSaveAndUpdateVer",
   "deleted": false,
-  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626d1df6cdb6905ade0a0050"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626bcc15cdb6905ade09ffee"
 }

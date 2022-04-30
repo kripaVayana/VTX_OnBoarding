@@ -16,7 +16,7 @@
     "pageId": "Verification Business KYC",
     "collectionId": "Verification Business KYC_VerificationJSObject",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\tconst meta = selectVeriStatus.selectedOptionValue ? `${selectVeriStatus.selectedOptionValue}__`: '';\n\t\treturn Table1.selectedRow.verFilePrefix + '__' + meta + FilePicker1.files[0].name;\n\t}",

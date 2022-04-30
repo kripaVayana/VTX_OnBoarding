@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "amazons3-plugin",
   "unpublishedAction": {
-    "name": "ListKYCDocQuery",
+    "name": "ListVerifiedKYCDocQuery",
     "datasource": {
       "name": "MinioDatasource",
       "pluginId": "amazons3-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Business KYC",
+    "pageId": "Verification Individual KYC",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         },
         "list": {
           "prefix": {
-            "data": "{{appsmith.store.FilePath}}/{{appsmith.store.customerOID}}_Entity"
+            "data": "{{JSObject1.getListVerKYCDocPath()}}"
           },
           "where": {
             "data": {
@@ -81,7 +81,7 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.bucket.data"
@@ -94,16 +94,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.BucketName",
-      "appsmith.store.FilePath",
-      "appsmith.store.customerOID"
+      "JSObject1.getListVerKYCDocPath()",
+      "appsmith.store.BucketName"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_ListKYCDocQuery",
+  "id": "Verification Individual KYC_ListVerifiedKYCDocQuery",
   "deleted": false,
-  "gitSyncId": "624b155c4eae7255ccdd4d5d_6263bec5b8cddf1c5a43c7ae"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626bcc66cdb6905ade09fff2"
 }

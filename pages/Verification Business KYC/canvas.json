@@ -237,6 +237,8 @@
                                 "ApiVarificaion",
                                 "VerificationStatus",
                                 "path",
+                                "docTypeCode",
+                                "docName",
                                 "verFilePrefix"
                               ],
                               "isVisibleDownload": true,
@@ -288,6 +290,12 @@
                                 },
                                 {
                                   "key": "primaryColumns.verFilePrefix.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.docTypeCode.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.docName.computedValue"
                                 },
                                 {
                                   "key": "primaryColumns.DocumentType.computedValue"
@@ -417,8 +425,42 @@
                                   "label": "verFilePrefix",
                                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.verFilePrefix))}}"
                                 },
-                                "DocumentType": {
+                                "docTypeCode": {
+                                  "index": 6,
+                                  "width": 150,
+                                  "id": "docTypeCode",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "docTypeCode",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.docTypeCode))}}"
+                                },
+                                "docName": {
                                   "index": 7,
+                                  "width": 150,
+                                  "id": "docName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "docName",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.docName))}}"
+                                },
+                                "DocumentType": {
+                                  "index": 9,
                                   "width": 150,
                                   "id": "DocumentType",
                                   "horizontalAlignment": "LEFT",
@@ -699,12 +741,20 @@
                               "columnOrder": [
                                 "DocumentType",
                                 "Status",
+                                "Comments",
                                 "VerificationFileName",
                                 "Download",
-                                "path"
+                                "Remove",
+                                "path",
+                                "docTypeCode",
+                                "statusCode",
+                                "id"
                               ],
                               "isVisibleDownload": true,
                               "dynamicPropertyPathList": [
+                                {
+                                  "key": "primaryColumns.Remove.onClick"
+                                },
                                 {
                                   "key": "primaryColumns.Download.onClick"
                                 }
@@ -722,6 +772,9 @@
                               "parentColumnSpace": 13.22265625,
                               "dynamicTriggerPathList": [
                                 {
+                                  "key": "primaryColumns.Remove.onClick"
+                                },
+                                {
                                   "key": "primaryColumns.Download.onClick"
                                 }
                               ],
@@ -736,16 +789,34 @@
                                   "key": "primaryColumns.Status.computedValue"
                                 },
                                 {
-                                  "key": "primaryColumns.Download.computedValue"
-                                },
-                                {
-                                  "key": "primaryColumns.path.computedValue"
+                                  "key": "primaryColumns.Comments.computedValue"
                                 },
                                 {
                                   "key": "primaryColumns.VerificationFileName.computedValue"
                                 },
                                 {
+                                  "key": "primaryColumns.Download.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.path.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.docTypeCode.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.statusCode.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.buttonLabel"
+                                },
+                                {
                                   "key": "primaryColumns.Download.buttonLabel"
+                                },
+                                {
+                                  "key": "primaryColumns.id.computedValue"
                                 }
                               ],
                               "leftColumn": 1,
@@ -784,8 +855,42 @@
                                   "label": "Status",
                                   "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.Status))}}"
                                 },
-                                "Download": {
+                                "Comments": {
+                                  "index": 2,
+                                  "width": 150,
+                                  "id": "Comments",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "Comments",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.Comments))}}"
+                                },
+                                "VerificationFileName": {
                                   "index": 3,
+                                  "width": 150,
+                                  "id": "VerificationFileName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "VerificationFileName",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.VerificationFileName))}}"
+                                },
+                                "Download": {
+                                  "index": 4,
                                   "width": 150,
                                   "id": "Download",
                                   "horizontalAlignment": "LEFT",
@@ -800,12 +905,34 @@
                                   "isDerived": false,
                                   "label": "Download",
                                   "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.Download))}}",
+                                  "iconName": "",
                                   "buttonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Download'))}}",
                                   "buttonColor": "#03b365",
                                   "onClick": "{{VerificationJSObject.downloadFile(currentRow.VerificationFileName, currentRow.path)}}"
                                 },
+                                "Remove": {
+                                  "index": 5,
+                                  "width": 150,
+                                  "id": "Remove",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "button",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "Remove",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.Remove))}}",
+                                  "iconName": "",
+                                  "buttonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Remove'))}}",
+                                  "onClick": "{{VerificationJSObject.removeFile(currentRow.path, currentRow.id)}}",
+                                  "buttonColor": "#03b365"
+                                },
                                 "path": {
-                                  "index": 4,
+                                  "index": 6,
                                   "width": 150,
                                   "id": "path",
                                   "horizontalAlignment": "LEFT",
@@ -821,22 +948,56 @@
                                   "label": "path",
                                   "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.path))}}"
                                 },
-                                "VerificationFileName": {
-                                  "index": 4,
+                                "docTypeCode": {
+                                  "index": 7,
                                   "width": 150,
-                                  "id": "VerificationFileName",
+                                  "id": "docTypeCode",
                                   "horizontalAlignment": "LEFT",
                                   "verticalAlignment": "CENTER",
                                   "columnType": "text",
                                   "textSize": "PARAGRAPH",
                                   "enableFilter": true,
                                   "enableSort": true,
-                                  "isVisible": true,
+                                  "isVisible": false,
                                   "isDisabled": false,
                                   "isCellVisible": true,
                                   "isDerived": false,
-                                  "label": "VerificationFileName",
-                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.VerificationFileName))}}"
+                                  "label": "docTypeCode",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.docTypeCode))}}"
+                                },
+                                "statusCode": {
+                                  "index": 8,
+                                  "width": 150,
+                                  "id": "statusCode",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "statusCode",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.statusCode))}}"
+                                },
+                                "id": {
+                                  "index": 9,
+                                  "width": 150,
+                                  "id": "id",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "PARAGRAPH",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "id",
+                                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.id))}}"
                                 }
                               },
                               "delimiter": ",",
@@ -846,7 +1007,7 @@
                               "textSize": "PARAGRAPH",
                               "widgetId": "piadq2yrww",
                               "isVisibleFilters": true,
-                              "tableData": "{{VerificationJSObject.getVerTableData()}}",
+                              "tableData": "{{VerificationJSObject.getVerTableData()\n}}",
                               "isVisible": true,
                               "label": "Data",
                               "searchKey": "",
@@ -867,35 +1028,6 @@
                                 "DocumentType": 211,
                                 "VerificationFileName": 243
                               }
-                            },
-                            {
-                              "boxShadow": "NONE",
-                              "widgetName": "IconButton3",
-                              "buttonColor": "#264283",
-                              "displayName": "Icon Button",
-                              "iconSVG": "/static/media/icon.1a0c634a.svg",
-                              "topRow": 55,
-                              "bottomRow": 59,
-                              "parentRowSpace": 10,
-                              "type": "ICON_BUTTON_WIDGET",
-                              "hideCard": false,
-                              "animateLoading": true,
-                              "parentColumnSpace": 13.22265625,
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 58,
-                              "dynamicBindingPathList": [],
-                              "isDisabled": false,
-                              "key": "0mlxmnt7f3",
-                              "rightColumn": 62,
-                              "iconName": "saved",
-                              "widgetId": "ro5eiu9lon",
-                              "isVisible": true,
-                              "version": 1,
-                              "parentId": "fr9ojudoj6",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "borderRadius": "CIRCLE",
-                              "buttonVariant": "SECONDARY"
                             },
                             {
                               "widgetName": "inputComments",
@@ -1090,13 +1222,11 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Verification Business KYC_ListVerifiedKYCDocQuery",
-              "name": "ListVerifiedKYCDocQuery",
+              "id": "Verification Business KYC_listVerDocData",
+              "name": "listVerDocData",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.BucketName",
-                "appsmith.store.FilePath",
                 "appsmith.store.customerOID"
               ],
               "timeoutInMillisecond": 10000
@@ -1109,8 +1239,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.BucketName",
                 "appsmith.store.FilePath",
+                "appsmith.store.BucketName",
                 "appsmith.store.customerOID"
               ],
               "timeoutInMillisecond": 10000
@@ -1127,7 +1257,6 @@
           "Form1",
           "FormButton1",
           "FormButton2",
-          "IconButton3",
           "Image1",
           "MainContainer",
           "Table1",

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "clearCommAddr",
-    "fullyQualifiedName": "utils.clearCommAddr",
+    "name": "getKYCDocListPath",
+    "fullyQualifiedName": "JSObject1.getKYCDocListPath",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,15 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "India Non Corporate Address",
-    "collectionId": "India Non Corporate Address_utils",
+    "pageId": "Verification Individual KYC",
+    "collectionId": "Verification Individual KYC_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\t\n\t}",
+      "body": "() => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_${JSObject1.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`",
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\t\n\t}"
+      "() => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_${JSObject1.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "India Non Corporate Address_utils.clearCommAddr",
+  "id": "Verification Individual KYC_JSObject1.getKYCDocListPath",
   "deleted": false,
-  "gitSyncId": "624b155c4eae7255ccdd4d5d_62568ca6d6bb232d41860d85"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626b92b5cdb6905ade09ffb9"
 }

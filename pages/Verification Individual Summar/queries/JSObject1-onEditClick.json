@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "onSaveAndUpdateVer",
-    "fullyQualifiedName": "VerificationJSObject.onSaveAndUpdateVer",
+    "name": "onEditClick",
+    "fullyQualifiedName": "JSObject1.onEditClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,14 +13,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Business KYC",
-    "collectionId": "Verification Business KYC_VerificationJSObject",
+    "pageId": "Verification Individual Summar",
+    "collectionId": "Verification Individual Summar_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}",
-      "jsArguments": [],
+      "body": "(oid) => {\n\t\tstoreValue('keyPersonOID',oid);\n\t\tnavigateTo(\"Verification Individual KYC\");\n\t}",
+      "jsArguments": [
+        {
+          "name": "oid"
+        }
+      ],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -33,14 +37,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}"
+      "(oid) => {\n\t\tstoreValue('keyPersonOID',oid);\n\t\tnavigateTo(\"Verification Individual KYC\");\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_VerificationJSObject.onSaveAndUpdateVer",
+  "id": "Verification Individual Summar_JSObject1.onEditClick",
   "deleted": false,
-  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626d1df6cdb6905ade0a0050"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626b8d60cdb6905ade09ffad"
 }

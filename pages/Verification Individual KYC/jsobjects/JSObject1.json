@@ -1,0 +1,33 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Verification Individual KYC",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\tdocShortForms: {\n\t\t'POI': 'Proof of Identification',\n\t\t'POA': 'Proof of Address',\n\t\t'PAN': 'PAN',\n\t\t'CC': 'Cancelled Cheque',\n\t\t'IEC': 'Import Export Certificate',\n\t\t'PD': 'PartnerShip Deed',\n\t\t'PL': 'Partnership Letter',\n\t\t\n\t\t'COI': 'Certificate of Incorporation',\n\t\t'MAA':'Memorandum & Article of Association',\n\t\t'LDIR': 'List of Directors with DIN',\n\t\t'BR': 'Board Resolution',\n\t\t'BOD': 'Beneficial ownership declaration',\n\t\t\n\t\t'PD1': 'Entity Proof Document 1',\n\t\t'PD2':'Entity Proof Document 2',\n\t\t'PHT': 'Photo',\n\t\t\n\t\t'LPDPIN': 'List of Partners with DPIN',\n\t\t'LLPBR': 'LLP Board Resolution'\n\t},\n\tgetFolderPrefix: () => appsmith.store.customerJID === 'IN' ? 'IndIndiaKYC' : 'IndFgnKYC',\n\tgetKYCDocListPath: () => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_${this.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`,\n\tgetListVerKYCDocPath: () => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_VER_${this.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`,\n\tgetUploadPath: () => {\n\t\tconst meta = Select1.selectedOptionValue ? `${Select1.selectedOptionValue}__`: '';\n\t\treturn Table1.selectedRow.verFilePrefix + '__' + meta + FilePicker1.files[0].name;\n\t},\n\tgetTableData: () => {\n\t\treturn ListKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tDownload: '',\n\t\t\t\tApiVarificaion: '',\n\t\t\t\tVerificationStatus: '',\n\t\t\t\tpath: entry.fileName,\n\t\t\t\tdocTypeCode: fileDetails[0],\n\t\t\t\tdocName: fileDetails.length === 3 ? fileDetails[1] : null,\n\t\t\t\tverFilePrefix: entry.fileName.split(\"__\")[0].replace(\"_\", \"_VER_\"),\n\t\t\t};\n\t\t});\n\t},\n\tonSaveAndUpdateVer: async () => {\n\t\tawait insertVerStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerStatusData.run();\n\t\tawait resetWidget('Form1', true);\n\t},\n\t\n\tgetVerTableData: () => {\n\t\treturn listVerStatusData.data.map((e) => ({\n\t\t\t\tDocumentType: this.docShortForms[e.KYC_DOCUMENT_TYPE],\n\t\t\t\tStatus: e.KYC_VERIFICATION_STATUS === 's' ? 'Success' : 'Failure',\n\t\t\t\tComments: e.KYC_VERIFICATION_COMMENTS,\n\t\t\t\tVerificationFileName: e.KYC_VERIFICATION_FILENAME,\n\t\t\t\tDownload: '',\n\t\t\t\tRemove: '',\n\t\t\t\tpath: e.S3_FILE_NAME,\n\t\t\t\tdocTypeCode: e.KYC_DOCUMENT_TYPE,\n\t\t\t\tstatusCode: e.KYC_VERIFICATION_STATUS,\n\t\t\t\tid: e.ID\n\t\t}));\n\t},\n\tdownloadFile: async (fileName, path) => {\n\t\tshowAlert(`Downloading File: ${fileName}`);\n\t\tawait storeValue('tempfileName', fileName);\n\t\tawait downloadFileQuery.run(()=> {\n\t\t\t\tdownload(atob(downloadFileQuery.data.fileData), appsmith.store.tempfileName);\n\t\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t},\n\tremoveFile: async (path, id) => {\n\t\tawait deletVerStatus.run(undefined, undefined, {\n\t\t\tid: id\n\t\t});\n\t\tawait DeleteFileQuery.run(() => {\n\t\t\tListVerifiedKYCDocQuery.run();\n\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t\tawait listVerStatusData.run();\n\t},\n}",
+    "variables": [
+      {
+        "name": "docShortForms",
+        "value": {
+          "POI": "Proof of Identification",
+          "POA": "Proof of Address",
+          "PAN": "PAN",
+          "CC": "Cancelled Cheque",
+          "IEC": "Import Export Certificate",
+          "PD": "PartnerShip Deed",
+          "PL": "Partnership Letter",
+          "COI": "Certificate of Incorporation",
+          "MAA": "Memorandum & Article of Association",
+          "LDIR": "List of Directors with DIN",
+          "BR": "Board Resolution",
+          "BOD": "Beneficial ownership declaration"
+        }
+      }
+    ]
+  },
+  "id": "Verification Individual KYC_JSObject1",
+  "deleted": false,
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626b9125cdb6905ade09ffb5"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Verification Individual Summar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tonEditClick: (oid) => {\n\t\tstoreValue('keyPersonOID',oid);\n\t\tnavigateTo(\"Verification Individual KYC\");\n\t},\n\ttest: () => {\n\t\treturn appsmith.store.customerJID;\n\t}\n}",
+    "variables": []
+  },
+  "id": "Verification Individual Summar_JSObject1",
+  "deleted": false,
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626b8d51cdb6905ade09ffab"
+}

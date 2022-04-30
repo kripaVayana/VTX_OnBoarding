@@ -266,6 +266,10 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Application List View_Helper.test": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Application List View_QuerySelectFormFillling": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -1398,10 +1402,6 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "India Non Corporate Address_utils.clearCommAddr": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
     "India Non Corporate Address_utils.generateOID": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -2198,13 +2198,17 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Verification Business KYC_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Verification Business KYC_ListKYCDocQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Verification Business KYC_ListVerifiedKYCDocQuery": {
-      "unpublishedUserSetOnLoad": true,
-      "publishedUserSetOnLoad": true
+    "Verification Business KYC_ListKYCDocQueryTemp": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     },
     "Verification Business KYC_VerificationJSObject.downloadFile": {
       "unpublishedUserSetOnLoad": false,
@@ -2226,15 +2230,67 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Verification Business KYC_VerificationJSObject.removeFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Business KYC_deleteVarificationStatus": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Verification Business KYC_downloadFileQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
     "Verification Business KYC_insertVerificationStatus": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Verification Business KYC_listVerDocData": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Verification Business KYC_uploadVerKYCDocQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Verification Business KYC_uploadVerKYCDocQuery": {
+    "Verification Individual KYC_DeleteFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.downloadFile": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getFolderPrefix": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getKYCDocListPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getListVerKYCDocPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getUploadPath": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.getVerTableData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.onSaveAndUpdateVer": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_JSObject1.removeFile": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -2242,11 +2298,39 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Verification Individual KYC_Query1": {
+    "Verification Individual KYC_ListVerifiedKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_deletVerStatus": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
     "Verification Individual KYC_downloadFileQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_insertVerStatus": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_listVerStatusData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual KYC_uploadVerKYCDocQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual Summar_JSObject1.onEditClick": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual Summar_JSObject1.test": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Verification Individual Summar_fetchIndividualsQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },

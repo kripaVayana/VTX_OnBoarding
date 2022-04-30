@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "onSaveAndUpdateVer",
-    "fullyQualifiedName": "VerificationJSObject.onSaveAndUpdateVer",
+    "name": "removeFile",
+    "fullyQualifiedName": "VerificationJSObject.removeFile",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,8 +19,15 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}",
-      "jsArguments": [],
+      "body": "async (path, id) => {\n\t\tawait deleteVarificationStatus.run(undefined, undefined, {\n\t\t\tid: id\n\t\t});\n\t\tawait DeleteFileQuery.run(undefined, undefined, {\n\t\t\tpath: path\n\t\t});\n\t\tawait listVerDocData.run();\n\t}",
+      "jsArguments": [
+        {
+          "name": "path"
+        },
+        {
+          "name": "id"
+        }
+      ],
       "isAsync": true
     },
     "executeOnLoad": false,
@@ -33,14 +40,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\tawait insertVerificationStatus.run();\n\t\tawait uploadVerKYCDocQuery.run();\n\t\tawait listVerDocData.run();\n\t\tawait resetWidget('Form1', true);\n\t}"
+      "async (path, id) => {\n\t\tawait deleteVarificationStatus.run(undefined, undefined, {\n\t\t\tid: id\n\t\t});\n\t\tawait DeleteFileQuery.run(undefined, undefined, {\n\t\t\tpath: path\n\t\t});\n\t\tawait listVerDocData.run();\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_VerificationJSObject.onSaveAndUpdateVer",
+  "id": "Verification Business KYC_VerificationJSObject.removeFile",
   "deleted": false,
-  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626d1df6cdb6905ade0a0050"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626bdbeccdb6905ade0a000d"
 }

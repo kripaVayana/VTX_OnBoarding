@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "insertVerificationStatus",
+    "name": "insertVerStatus",
     "datasource": {
       "name": "localhost_mysql",
       "pluginId": "mysql-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Verification Business KYC",
+    "pageId": "Verification Individual KYC",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO APS_KYCVERIFICATIONSTATUS\n(`CUSTOMER_OID`,\n`KYC_DOCUMENT_TYPE`,\n`KYC_DOCUMENT_NAME`,\n`KYC_VERIFICATION_STATUS`,\n`KYC_VERIFICATION_COMMENTS`,\n`KYC_VERIFICATION_FILENAME`,\n`KYC_VERIFIED_BY`,\n`KYC_VERIFIED_DATETIME`,\n`S3_FILE_NAME`\n)\nVALUES\n( {{appsmith.store.customerOID}} , {{Table1.selectedRow.docTypeCode}},{{Table1.selectedRow.docName || ''}},{{selectVeriStatus.selectedOptionValue}},{{inputComments.text}},{{FilePicker1.files[0].name}},{{appsmith.store.username}},{{moment()}},{{VerificationJSObject.getVerKYCDocName()}});\t\t\n",
+      "body": "INSERT INTO APS_KYCVERIFICATIONSTATUS\n(`CUSTOMER_OID`,\n `KEY_PERSON_ID`,\n`KYC_DOCUMENT_TYPE`,\n`KYC_DOCUMENT_NAME`,\n`KYC_VERIFICATION_STATUS`,\n`KYC_VERIFICATION_COMMENTS`,\n`KYC_VERIFICATION_FILENAME`,\n`KYC_VERIFIED_BY`,\n`KYC_VERIFIED_DATETIME`,\n`S3_FILE_NAME`\n)\nVALUES\n( {{appsmith.store.customerOID}}, {{appsmith.store.keyPersonOID}}, {{Table1.selectedRow.docTypeCode}},{{Table1.selectedRow.docName}},{{Select1.selectedOptionValue}},{{inputComments.text}},{{FilePicker1.files[0].name}},{{appsmith.store.username}},{{moment()}},{{JSObject1.getUploadPath()}});\t\t",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -36,21 +36,22 @@
     "messages": [],
     "jsonPathKeys": [
       "FilePicker1.files[0].name",
-      "Table1.selectedRow.docName || ''",
+      "JSObject1.getUploadPath()",
+      "Select1.selectedOptionValue",
+      "Table1.selectedRow.docName",
       "Table1.selectedRow.docTypeCode",
-      "VerificationJSObject.getVerKYCDocName()",
       "appsmith.store.customerOID",
+      "appsmith.store.keyPersonOID",
       "appsmith.store.username",
       "inputComments.text",
-      "moment()",
-      "selectVeriStatus.selectedOptionValue"
+      "moment()"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Verification Business KYC_insertVerificationStatus",
+  "id": "Verification Individual KYC_insertVerStatus",
   "deleted": false,
-  "gitSyncId": "624b155c4eae7255ccdd4d5d_6268185cb8cddf1c5a43c87c"
+  "gitSyncId": "626a2b49a70a1c6b1d2cc599_626d29b1cdb6905ade0a0081"
 }

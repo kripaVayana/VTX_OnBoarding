@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1318,11 +1318,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "'Auth Signatory Person Foreign'",
+                "'Auth Signatory Person India'",
                 "'Key Person Foreign'",
                 "'Key Person India'",
                 "'partner'",
-                "'Auth Signatory Person India'",
-                "'Auth Signatory Person Foreign'",
                 "appsmith.store.customerOID"
               ],
               "timeoutInMillisecond": 100000
