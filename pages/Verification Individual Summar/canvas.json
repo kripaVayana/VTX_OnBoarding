@@ -79,11 +79,11 @@
                       "parentColumnSpace": 13.4375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
-                      "leftColumn": 37,
+                      "leftColumn": 44,
                       "dynamicBindingPathList": [],
                       "text": "Is Benificial Owner?",
                       "key": "kk75vn12z5",
-                      "rightColumn": 45,
+                      "rightColumn": 52,
                       "textAlign": "LEFT",
                       "widgetId": "oono2n8atb",
                       "isVisible": true,
@@ -108,11 +108,11 @@
                       "parentColumnSpace": 13.4375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
-                      "leftColumn": 29,
+                      "leftColumn": 32,
                       "dynamicBindingPathList": [],
                       "text": "Is Entity Administrator?",
                       "key": "kk75vn12z5",
-                      "rightColumn": 37,
+                      "rightColumn": 42,
                       "textAlign": "LEFT",
                       "widgetId": "u41sdx20u0",
                       "isVisible": true,
@@ -197,40 +197,11 @@
                       "overflow": "NONE",
                       "leftColumn": 22,
                       "dynamicBindingPathList": [],
-                      "text": "Is Authorised\nSignatory?",
+                      "text": "Is Authorised Signatory?",
                       "key": "kk75vn12z5",
-                      "rightColumn": 29,
+                      "rightColumn": 32,
                       "textAlign": "LEFT",
                       "widgetId": "pwybrbvw6i",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "psuv6t44mi",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "fontSize": "PARAGRAPH"
-                    },
-                    {
-                      "widgetName": "Text9",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 6,
-                      "bottomRow": 10,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 13.4375,
-                      "dynamicTriggerPathList": [],
-                      "overflow": "NONE",
-                      "leftColumn": 45,
-                      "dynamicBindingPathList": [],
-                      "text": "User Access",
-                      "key": "kk75vn12z5",
-                      "rightColumn": 55,
-                      "textAlign": "LEFT",
-                      "widgetId": "9vn12cxgoe",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
@@ -417,7 +388,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_TYPE;\n              })();\n            })}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_TYPE ? 'Yes' : 'No';\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 22,
                           "textAlign": "LEFT",
@@ -539,7 +510,7 @@
                               "key": "text"
                             }
                           ],
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS;\n              })();\n            })}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS === 'administrator' ? 'Yes': 'No';\n              })();\n            })}}",
                           "key": "hoqxjfbkfh",
                           "rightColumn": 42,
                           "textAlign": "LEFT",
@@ -606,7 +577,7 @@
                           ],
                           "leftColumn": 57,
                           "dynamicBindingPathList": [],
-                          "text": "Edit",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'View';\n              })();\n            })}}",
                           "isDisabled": false,
                           "key": "7qcyyb5cdg",
                           "rightColumn": 63,
@@ -669,7 +640,7 @@
                             }
                           ],
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.OID;\n              })();\n            })}}",
+                          "text": "{{vayKeyPersonIndList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.CUSTOMER_KEY_PERSON_ENTITY_TYPE === 'UBO Individual Person' ? \"Yes\" : \"No\";\n              })();\n            })}}",
                           "key": "3lkz81ywn9",
                           "rightColumn": 52,
                           "textAlign": "LEFT",
@@ -721,6 +692,9 @@
                         },
                         {
                           "key": "template.Text10.text"
+                        },
+                        {
+                          "key": "template.Button1.text"
                         }
                       ],
                       "gridType": "vertical",
@@ -857,15 +831,15 @@
                                       "parentColumnSpace": 12.580078125,
                                       "dynamicTriggerPathList": [],
                                       "overflow": "NONE",
-                                      "leftColumn": 14,
+                                      "leftColumn": 16,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
                                         }
                                       ],
-                                      "text": "{{currentItem.CUSTOMER_KEY_PERSON_TYPE}}",
+                                      "text": "{{currentItem.CUSTOMER_KEY_PERSON_TYPE ? 'Yes' : 'No'}}",
                                       "key": "hoqxjfbkfh",
-                                      "rightColumn": 22,
+                                      "rightColumn": 20,
                                       "textAlign": "LEFT",
                                       "widgetId": "eftz1cl0s7",
                                       "logBlackList": {
@@ -918,7 +892,7 @@
                                       "parentColumnSpace": 12.580078125,
                                       "dynamicTriggerPathList": [],
                                       "overflow": "NONE",
-                                      "leftColumn": 22,
+                                      "leftColumn": 25,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
@@ -926,7 +900,7 @@
                                       ],
                                       "text": "{{currentItem.CUSTOMER_KEY_PERSON_IS_AUTH_SIGN=1?\"Yes\":\"No\"}}",
                                       "key": "hoqxjfbkfh",
-                                      "rightColumn": 26,
+                                      "rightColumn": 29,
                                       "textAlign": "LEFT",
                                       "widgetId": "xv6495pi0q",
                                       "logBlackList": {
@@ -979,15 +953,15 @@
                                       "parentColumnSpace": 12.580078125,
                                       "dynamicTriggerPathList": [],
                                       "overflow": "NONE",
-                                      "leftColumn": 32,
+                                      "leftColumn": 35,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
                                         }
                                       ],
-                                      "text": "{{currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS}}",
+                                      "text": "{{currentItem.CUSTOMER_KEY_PERSON_ACCESS_AS === 'administrator' ? 'Yes': 'No'}}",
                                       "key": "hoqxjfbkfh",
-                                      "rightColumn": 42,
+                                      "rightColumn": 39,
                                       "textAlign": "LEFT",
                                       "widgetId": "hvcrct5xvl",
                                       "logBlackList": {
@@ -1052,7 +1026,7 @@
                                       ],
                                       "leftColumn": 57,
                                       "dynamicBindingPathList": [],
-                                      "text": "Edit",
+                                      "text": "View",
                                       "isDisabled": false,
                                       "key": "7qcyyb5cdg",
                                       "rightColumn": 63,
@@ -1108,16 +1082,16 @@
                                       "parentColumnSpace": 17.75,
                                       "dynamicTriggerPathList": [],
                                       "overflow": "NONE",
-                                      "leftColumn": 45,
+                                      "leftColumn": 46,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
                                         }
                                       ],
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "{{currentItem.OID}}",
+                                      "text": "{{currentItem.CUSTOMER_KEY_PERSON_ENTITY_TYPE === 'UBO Individual Person' ? \"Yes\" : \"No\"}}",
                                       "key": "3lkz81ywn9",
-                                      "rightColumn": 52,
+                                      "rightColumn": 53,
                                       "textAlign": "LEFT",
                                       "widgetId": "it5q66rlra",
                                       "isVisible": false,
@@ -1296,7 +1270,6 @@
           "Text8",
           "Text8Copy",
           "Text8CopyCopy",
-          "Text9",
           "vayKeyPersonIndList"
         ],
         "validOnPageLoadActions": true,

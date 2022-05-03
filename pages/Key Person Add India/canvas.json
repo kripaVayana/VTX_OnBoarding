@@ -2834,6 +2834,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Key Person Add India_selectActiveCountry",
+              "name": "selectActiveCountry",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Key Person Add India_getKeyPersonCurrencyLimit",
               "name": "getKeyPersonCurrencyLimit",
               "confirmBeforeExecute": false,
@@ -2842,14 +2852,6 @@
                 "appsmith.store.editKeyPersonOID"
               ],
               "timeoutInMillisecond": 50000
-            },
-            {
-              "id": "Key Person Add India_selectActiveCountry",
-              "name": "selectActiveCountry",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
             }
           ],
           [

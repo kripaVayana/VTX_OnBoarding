@@ -2943,8 +2943,8 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "'Key Person Foreign'",
-                "appsmith.store.editKeyPersonOID",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.editKeyPersonOID"
               ],
               "timeoutInMillisecond": 10000
             }

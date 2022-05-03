@@ -54,7 +54,8 @@
     "Verification Individual Summar",
     "Verification Business Form",
     "Verification Individual KYC",
-    "Page1"
+    "Page1",
+    "Page2"
   ],
   "publishedPageOrder": [
     "Entity KYC Ind Proprietorship",
@@ -109,7 +110,8 @@
     "Verification Individual Summar",
     "Verification Business Form",
     "Verification Individual KYC",
-    "Page1"
+    "Page1",
+    "Page2"
   ],
   "publishedDefaultPageName": "LogIn",
   "unpublishedDefaultPageName": "LogIn",

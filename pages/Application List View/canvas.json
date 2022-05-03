@@ -216,6 +216,7 @@
                               "defaultPageSize": 0,
                               "columnOrder": [
                                 "customColumn1",
+                                "customColumn2",
                                 "OID",
                                 "CUSTOMER_ID",
                                 "CUSTOMER_PARTICIPANT_ID",
@@ -263,7 +264,17 @@
                                 "CUSTOMER_REGISTRARNAME"
                               ],
                               "isVisibleDownload": false,
-                              "dynamicPropertyPathList": [],
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "primaryColumns.customColumn1.isCellVisible"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn2.isCellVisible"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn2.onClick"
+                                }
+                              ],
                               "displayName": "Table",
                               "iconSVG": "/static/media/icon.db8a9cbd.svg",
                               "topRow": 7,
@@ -278,6 +289,9 @@
                               "dynamicTriggerPathList": [
                                 {
                                   "key": "primaryColumns.customColumn1.onClick"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn2.onClick"
                                 }
                               ],
                               "dynamicBindingPathList": [
@@ -424,6 +438,24 @@
                                 },
                                 {
                                   "key": "primaryColumns.CUSTOMER_REGISTRARNAME.computedValue"
+                                },
+                                {
+                                  "key": "derivedColumns.customColumn1.isCellVisible"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn1.isCellVisible"
+                                },
+                                {
+                                  "key": "derivedColumns.customColumn2.buttonLabel"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn2.buttonLabel"
+                                },
+                                {
+                                  "key": "derivedColumns.customColumn2.isCellVisible"
+                                },
+                                {
+                                  "key": "primaryColumns.customColumn2.isCellVisible"
                                 }
                               ],
                               "leftColumn": 0,
@@ -1229,7 +1261,7 @@
                                   "enableSort": true,
                                   "isVisible": true,
                                   "isDisabled": false,
-                                  "isCellVisible": true,
+                                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.URL.queryParams.paramStatus === 'E_STATUS_DRAFT'))}}",
                                   "isDerived": true,
                                   "label": "Edit",
                                   "computedValue": "",
@@ -1259,6 +1291,27 @@
                                   "isDerived": false,
                                   "label": "CUSTOMER_REGISTRARNAME",
                                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.CUSTOMER_REGISTRARNAME))}}"
+                                },
+                                "customColumn2": {
+                                  "index": 46,
+                                  "width": 150,
+                                  "id": "customColumn2",
+                                  "columnType": "button",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.URL.queryParams.paramStatus === 'E_STATUS_INVERIFICATION'))}}",
+                                  "isDerived": true,
+                                  "label": "Verify",
+                                  "computedValue": "",
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "buttonColor": "#264283",
+                                  "menuColor": "#03B365",
+                                  "labelColor": "#FFFFFF",
+                                  "iconName": "",
+                                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Verify'))}}",
+                                  "onClick": "{{Helper.editApplicationFormData()}}"
                                 }
                               },
                               "delimiter": ",",
@@ -1273,7 +1326,7 @@
                                   "enableSort": true,
                                   "isVisible": true,
                                   "isDisabled": false,
-                                  "isCellVisible": true,
+                                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.URL.queryParams.paramStatus === 'E_STATUS_DRAFT'))}}",
                                   "isDerived": true,
                                   "label": "Edit",
                                   "computedValue": "",
@@ -1285,6 +1338,27 @@
                                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Edit'))}}",
                                   "onClick": "{{\nstoreValue('editCustomerOID',currentRow.OID)\nHelper.editApplicationFormData()\n}}",
                                   "textColor": "#264283"
+                                },
+                                "customColumn2": {
+                                  "index": 46,
+                                  "width": 150,
+                                  "id": "customColumn2",
+                                  "columnType": "button",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.URL.queryParams.paramStatus === 'E_STATUS_INVERIFICATION'))}}",
+                                  "isDerived": true,
+                                  "label": "Verify",
+                                  "computedValue": "",
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "buttonColor": "#264283",
+                                  "menuColor": "#03B365",
+                                  "labelColor": "#FFFFFF",
+                                  "iconName": "",
+                                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Verify'))}}",
+                                  "onClick": "{{Helper.editApplicationFormData()}}"
                                 }
                               },
                               "rightColumn": 64,

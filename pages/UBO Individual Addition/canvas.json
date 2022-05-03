@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -1643,8 +1643,8 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "'UBO Individual Person'",
-                "appsmith.store.editKeyPersonOID",
-                "appsmith.store.customerOID"
+                "appsmith.store.customerOID",
+                "appsmith.store.editKeyPersonOID"
               ],
               "timeoutInMillisecond": 10000
             }

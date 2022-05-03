@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 57,
           "minHeight": 1970,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -2731,9 +2731,9 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "(Table1.pageNo - 1) * Table1.pageSize",
+                "Table1.pageSize",
                 "Table1.searchText || \"\"",
                 "col_select.selectedOptionValue",
-                "Table1.pageSize",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
